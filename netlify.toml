@@ -12,6 +12,7 @@
 
 [build.environment]
   NODE_VERSION = "20"
+  SECRETS_SCAN_OMIT_KEYS = "DEMO_USERNAME,DEMO_PASSWORD"
 
 [[redirects]]
   from = "/api/*"
