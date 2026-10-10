@@ -1,0 +1,30 @@
+# Render Blueprint: one free HTTPS API replica.
+# Set API_KEY in the dashboard when prompted. Never put the evaluation key here.
+#
+# Free instances have no persistent disk and sleep after idle time. Job state
+# lives only while the instance is awake, which is enough for ~200-ticket jobs
+# finished in the same session. Closest region to Asia/Colombo is singapore.
+
+services:
+  - type: web
+    name: tensorforge-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    region: singapore
+    numInstances: 1
+    healthCheckPath: /health
+    autoDeployTrigger: commit
+    envVars:
+      - key: API_KEY
+        sync: false
+      - key: JOB_DB
+        value: /srv/runtime/jobs.sqlite3
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: OMP_NUM_THREADS
+        value: "1"
+      - key: OPENBLAS_NUM_THREADS
+        value: "1"
+      - key: MKL_NUM_THREADS
+        value: "1"

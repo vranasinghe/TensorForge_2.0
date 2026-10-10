@@ -9,7 +9,8 @@ COPY artifacts ./artifacts
 COPY schemas ./schemas
 RUN mkdir -p /srv/runtime && chown -R tensorforge:tensorforge /srv/runtime
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
-RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+COPY scripts/start_api.sh /usr/local/bin/start-api
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh /usr/local/bin/start-api
 EXPOSE 8000
 ENTRYPOINT ["docker-entrypoint.sh"]
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "1"]
+CMD ["start-api"]
