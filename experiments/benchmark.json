@@ -1,0 +1,52 @@
+{
+  "environment": "Windows-10-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "method": "local TestClient on this host, includes ASGI overhead; not Docker/reference hardware",
+  "jobs": {
+    "2000": {
+      "submit_seconds": 0.11978160000217031,
+      "completion_seconds": 28.564538900001935,
+      "poll_and_health": {
+        "count": 139,
+        "p50_seconds": 0.02281089999814867,
+        "p95_seconds": 0.036011949999010535,
+        "max_seconds": 0.04910839999865857
+      },
+      "live_predict": {
+        "count": 139,
+        "p50_seconds": 0.152521699998033,
+        "p95_seconds": 0.19622740000013436,
+        "max_seconds": 0.26335779999863007
+      }
+    },
+    "5000": {
+      "submit_seconds": 0.2940372999983083,
+      "completion_seconds": 67.55196839999917,
+      "poll_and_health": {
+        "count": 326,
+        "p50_seconds": 0.02180190000217408,
+        "p95_seconds": 0.036067725000066275,
+        "max_seconds": 0.04951620000065304
+      },
+      "live_predict": {
+        "count": 326,
+        "p50_seconds": 0.150247550000131,
+        "p95_seconds": 0.20499647500218998,
+        "max_seconds": 0.26191800000015064
+      }
+    }
+  },
+  "cold_readiness_seconds": 4.638430300001346,
+  "single": {
+    "count": 100,
+    "p50_seconds": 0.05827615000089281,
+    "p95_seconds": 0.0688756799992916,
+    "max_seconds": 0.07464880000043195
+  },
+  "sync_100": {
+    "count": 10,
+    "p50_seconds": 1.050413650002156,
+    "p95_seconds": 1.1157749649990365,
+    "max_seconds": 1.119164499999897
+  }
+}

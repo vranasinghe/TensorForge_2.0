@@ -1,0 +1,38 @@
+{
+  "note": "one pre-specified change; supplied validation is reused development data",
+  "seed": 42,
+  "results": [
+    {
+      "name": "default_tokens",
+      "train_group_cv_accuracy": 0.99075,
+      "train_group_cv_macro_f1": 0.9887611270916105,
+      "validation_accuracy": 0.6,
+      "validation_macro_f1": 0.629117288933656,
+      "validation_language_accuracy": {
+        "en": 0.5535714285714286,
+        "mixed": 0.55,
+        "si": 0.35625,
+        "singlish": 0.9,
+        "ta": 0.5333333333333333,
+        "tanglish": 0.65
+      },
+      "seconds": 16.9
+    },
+    {
+      "name": "unicode_tokens",
+      "train_group_cv_accuracy": 0.99,
+      "train_group_cv_macro_f1": 0.9872779251842349,
+      "validation_accuracy": 0.60875,
+      "validation_macro_f1": 0.6380239516430989,
+      "validation_language_accuracy": {
+        "en": 0.5535714285714286,
+        "mixed": 0.55,
+        "si": 0.34375,
+        "singlish": 0.9,
+        "ta": 0.6166666666666667,
+        "tanglish": 0.6
+      },
+      "seconds": 17.1
+    }
+  ]
+}

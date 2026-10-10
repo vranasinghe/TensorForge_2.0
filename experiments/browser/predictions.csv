@@ -1,0 +1,3 @@
+﻿ticket_id,category,secondary_category,team,is_urgent,confidence,model_version
+"browser-1","payment_refund","delivery_delay","Payments & Refunds","false","0.587404539025","sha256-3174cfe423b209a8b8bc38591720978baa3af19a396a20376a910940544cb8a0"
+"browser-2","lost_item","","Lost & Found","false","0.869858534352","sha256-3174cfe423b209a8b8bc38591720978baa3af19a396a20376a910940544cb8a0"

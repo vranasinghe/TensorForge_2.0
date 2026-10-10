@@ -1,0 +1,8 @@
+{$API_DOMAIN} {
+    reverse_proxy 127.0.0.1:8000
+}
+
+{$DEMO_DOMAIN} {
+    reverse_proxy 127.0.0.1:8501
+    header Cache-Control "no-store"
+}

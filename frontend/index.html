@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TensorForge 2.0 · RideEat Ticket Classifier</title>
+<style>
+:root{
+ color-scheme:light;
+ --bg:#f4f6f9;--surface:#fff;--surface2:#f8fafc;
+ --line:#e2e8f0;--line2:#cbd5e1;
+ --ink:#15212e;--body:#33475b;--muted:#5d7084;--dim:#5a6b7e;
+ --accent:#1b4f8f;--accent-dark:#143d70;--accent-weak:#eef3fa;
+ --green:#0f7b4f;--green-bg:#e8f5ee;--green-line:#b7ddc8;
+ --amber:#8a5a00;--amber-bg:#fdf4e3;--amber-line:#ebd3a0;
+ --red:#b42318;--red-bg:#fdecea;--red-line:#f2c3bd;
+ --mono:ui-monospace,"Cascadia Mono",Consolas,"SF Mono",monospace;
+ --shadow:0 1px 2px rgba(16,34,51,.05);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--body);
+ font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Sinhala","Noto Sans Tamil",sans-serif}
+.wrap{max-width:1240px;margin:0 auto;padding:0 24px}
+
+header{background:var(--surface);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+.hrow{display:flex;align-items:center;gap:13px;padding:14px 0}
+.logo{width:32px;height:32px;border-radius:5px;background:var(--accent);display:grid;place-items:center;
+ font-weight:700;font-size:15px;color:#fff;flex:none}
+.brand b{display:block;font-size:15px;font-weight:650;color:var(--ink)}
+.brand span{display:block;font-size:10.5px;color:var(--dim);letter-spacing:.09em;margin-top:1px}
+.spacer{flex:1}
+
+.badge{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:600;padding:5px 11px;
+ border-radius:4px;border:1px solid var(--line2);background:var(--surface2);color:var(--muted);white-space:nowrap}
+.badge .dot{width:7px;height:7px;border-radius:50%;background:var(--dim);flex:none}
+.badge.ok{color:var(--green);border-color:var(--green-line);background:var(--green-bg)}.badge.ok .dot{background:var(--green)}
+.badge.wait{color:var(--amber);border-color:var(--amber-line);background:var(--amber-bg)}.badge.wait .dot{background:var(--amber)}
+.badge.bad{color:var(--red);border-color:var(--red-line);background:var(--red-bg)}.badge.bad .dot{background:var(--red)}
+
+.connbar{border-bottom:1px solid var(--line);background:var(--surface2)}
+.connrow{display:flex;align-items:center;gap:13px;padding:10px 0;flex-wrap:wrap}
+.connlabel{font-size:10.5px;font-weight:700;letter-spacing:.09em;color:var(--dim);text-transform:uppercase}
+.kv{display:flex;align-items:center;gap:7px;font-size:12.5px;color:var(--muted);min-width:0;max-width:100%;flex-wrap:wrap}
+.ver{font-family:var(--mono);font-size:11.5px;color:var(--accent);background:var(--accent-weak);
+ border:1px solid #d3e1f1;padding:3px 7px;border-radius:4px;max-width:min(340px,100%);
+ overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+
+button{font:inherit;font-weight:600;font-size:14px;border:1px solid var(--accent);border-radius:5px;
+ padding:8px 16px;background:var(--accent);color:#fff;cursor:pointer}
+button:hover{background:var(--accent-dark);border-color:var(--accent-dark)}
+button:disabled{opacity:.45;cursor:not-allowed}
+button.ghost{background:var(--surface);color:var(--ink);border-color:var(--line2)}
+button.ghost:hover{background:var(--surface2);border-color:var(--muted)}
+button.sm{padding:6px 12px;font-size:13px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.stats{display:flex;justify-content:center;gap:0;flex-wrap:wrap;background:var(--surface);
+ border-bottom:1px solid var(--line)}
+.stat{text-align:center;padding:18px 30px;border-right:1px solid var(--line)}
+.stat:last-child{border-right:0}
+.stat b{display:block;font-size:23px;font-weight:650;color:var(--ink);line-height:1.2;font-variant-numeric:tabular-nums}
+.stat span{display:block;font-size:10px;letter-spacing:.09em;color:var(--dim);text-transform:uppercase;margin-top:4px}
+
+.hero{text-align:center;padding:40px 0 30px}
+.hero h1{margin:0 0 9px;font-size:29px;font-weight:650;color:var(--ink);letter-spacing:-.01em}
+.hero p{margin:0 auto;max-width:650px;color:var(--muted);font-size:14px}
+
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:6px;overflow:hidden;box-shadow:var(--shadow)}
+.ch{display:flex;align-items:center;gap:9px;padding:11px 16px;background:var(--surface2);border-bottom:1px solid var(--line)}
+.ch i{width:20px;height:20px;border-radius:4px;background:var(--accent-weak);border:1px solid #d3e1f1;
+ display:grid;place-items:center;font-size:11px;font-style:normal;font-weight:700;color:var(--accent);flex:none}
+.ch h2{margin:0;font-size:13.5px;font-weight:650;color:var(--ink)}
+.cb{padding:16px}
+
+label{display:block;font-size:12px;font-weight:600;color:var(--ink);margin:0 0 5px}
+input,select,textarea{font:inherit;width:100%;padding:8px 11px;border:1px solid var(--line2);border-radius:5px;
+ background:var(--surface);color:var(--ink)}
+input::placeholder,textarea::placeholder{color:#9fb0c2}
+input:focus,select:focus,textarea:focus{border-color:var(--accent);outline:none;box-shadow:0 0 0 3px rgba(27,79,143,.1)}
+textarea{resize:vertical;min-height:92px;font-size:14px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.chip{font-size:12px;padding:5px 11px;border-radius:4px;border:1px solid var(--line2);
+ background:var(--surface);color:var(--body);cursor:pointer}
+.chip:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-weak)}
+.full{width:100%;margin-top:13px}
+.hint{font-size:12px;color:var(--muted);margin:7px 0 0}
+.mono{font-family:var(--mono);overflow-wrap:anywhere}
+
+.out{margin-top:14px;border-top:1px solid var(--line);padding-top:13px}
+.pill{display:inline-block;font-size:11.5px;font-weight:650;padding:3px 9px;border-radius:4px;margin:0 6px 6px 0;border:1px solid}
+.pill.cat{background:var(--accent-weak);color:var(--accent);border-color:#d3e1f1}
+.pill.team{background:var(--green-bg);color:var(--green);border-color:var(--green-line)}
+.pill.urg{background:var(--red-bg);color:var(--red);border-color:var(--red-line)}
+.pill.calm{background:var(--surface2);color:var(--muted);border-color:var(--line2)}
+.pill.rev{background:var(--amber-bg);color:var(--amber);border-color:var(--amber-line)}
+.meter{height:6px;background:#e8edf3;border-radius:3px;overflow:hidden;margin:9px 0 4px}
+.meter i{display:block;height:100%;background:var(--accent);width:0}
+
+table{width:100%;border-collapse:collapse;font-size:13px;table-layout:fixed}
+th{text-align:left;font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--dim);
+ padding:8px 12px;border-bottom:1px solid var(--line);background:var(--surface2);font-weight:700}
+td{padding:8px 12px;border-bottom:1px solid var(--line);color:var(--body)}
+td,th{overflow-wrap:anywhere}
+tr:last-child td{border-bottom:0}
+td.k{font-family:var(--mono);font-size:12px;color:var(--accent)}
+.scroll{max-height:290px;overflow:auto;max-width:100%}
+pre{font-family:var(--mono);font-size:11.5px;background:var(--surface2);border:1px solid var(--line);
+ padding:10px;border-radius:5px;overflow:auto;max-height:200px;white-space:pre-wrap;overflow-wrap:anywhere;color:var(--body)}
+progress{width:100%;height:7px;accent-color:var(--accent)}
+.msg{margin-top:11px;font-size:13px;color:var(--red);white-space:pre-wrap}
+.ok-msg{color:var(--green)}
+details summary{cursor:pointer}
+
+.about{margin:34px 0 0}
+.about h3{font-size:16px;margin:0 0 4px;color:var(--ink);font-weight:650}
+.about>p{color:var(--muted);font-size:13px;margin:0 0 15px}
+.acards{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:16px}
+.ac{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px;box-shadow:var(--shadow)}
+.ac b{display:block;font-size:12.5px;margin-bottom:9px;color:var(--ink);padding-bottom:7px;border-bottom:1px solid var(--line)}
+.ac p,.ac div{font-size:12.5px;color:var(--muted);margin:0}
+.ac .l{display:flex;justify-content:space-between;gap:10px;padding:3px 0}
+.ac .l span:last-child{color:var(--ink);font-weight:650;font-family:var(--mono);font-size:12px;font-variant-numeric:tabular-nums}
+.ac strong{color:var(--ink)}
+
+footer{text-align:center;color:var(--dim);font-size:12px;padding:24px 0 34px;margin-top:28px;border-top:1px solid var(--line)}
+@media(max-width:900px){
+ .grid{grid-template-columns:1fr}.hero h1{font-size:25px}.row2{grid-template-columns:1fr}
+ .connrow{gap:9px}.wrap{padding:0 16px}
+ .stat{padding:14px 18px;border-right:0}
+ .stats{gap:0;justify-content:space-around}
+}
+</style></head>
+<body>
+<header><div class="wrap hrow">
+  <div class="logo">T</div>
+  <div class="brand"><b>TensorForge 2.0</b><span>PHASE 2 MVP · RIDEEAT TICKET TRIAGE</span></div>
+  <div class="spacer"></div>
+  <span class="badge" id="hdr-badge"><span class="dot"></span><span id="hdr-text">Connecting…</span></span>
+</div></header>
+
+<div class="connbar"><div class="wrap connrow">
+  <span class="connlabel">Backend API</span>
+  <span class="badge" id="conn-badge"><span class="dot"></span><span id="conn-text">Checking…</span></span>
+  <span class="kv">Model version <span class="ver" id="conn-ver" title="">—</span></span>
+  <span class="kv" id="conn-when">Last checked —</span>
+  <div class="spacer"></div>
+  <button class="ghost sm" id="test-conn">Test connection</button>
+</div></div>
+
+<div class="stats">
+  <div class="stat"><b>64.5%</b><span>Validation accuracy</span></div>
+  <div class="stat"><b>67.3%</b><span>Macro F1</span></div>
+  <div class="stat"><b>97.9%</b><span>Urgency accuracy</span></div>
+  <div class="stat"><b>88.9%</b><span>Urgency F1</span></div>
+  <div class="stat"><b>11</b><span>Categories</span></div>
+  <div class="stat"><b>6</b><span>Languages</span></div>
+</div>
+
+<main class="wrap">
+<div class="hero">
+  <h1>RideEat Ticket Classifier</h1>
+  <p>Classify multilingual support tickets by category, team and urgency. Word and character TF-IDF with a
+     calibrated linear ensemble, trained on 4,000 tickets across 6 language variants. No LLM at inference.</p>
+</div>
+
+<div class="grid">
+  <section class="card"><div class="ch"><i>1</i><h2>Single ticket prediction</h2></div><div class="cb">
+    <label>Sample tickets</label>
+    <div class="chips" id="samples"></div>
+    <div class="row2">
+      <div><label for="channel">Channel</label><select id="channel"><option value="chat">chat</option><option value="email">email</option><option value="call_transcript">call_transcript</option></select></div>
+      <div><label for="subject">Subject (optional)</label><input id="subject" maxlength="500" placeholder="Email subject…"></div>
+    </div>
+    <div style="margin-top:12px"><label for="text">Ticket text *</label>
+      <textarea id="text" maxlength="10000" placeholder="Type the ticket text here. English, Sinhala, Tamil, Singlish, Tanglish and mixed script are all supported."></textarea></div>
+    <button class="full" id="go-single">Classify ticket</button>
+    <div class="out" id="single-out" aria-live="polite"><p class="hint">Submit a ticket to see its category, routed team, secondary issue, urgency, confidence and review flag.</p></div>
+  </div></section>
+
+  <section class="card"><div class="ch"><i>2</i><h2>Batch prediction (1–100, synchronous)</h2></div><div class="cb">
+    <label for="batch">One ticket per line: <span class="mono">ticket_id | channel | text</span></label>
+    <textarea id="batch" style="min-height:132px" placeholder="T-001 | chat | My order is missing an item&#10;T-002 | email | I need a refund for a double charge&#10;T-003 | chat | The driver was driving dangerously"></textarea>
+    <div style="display:flex;gap:9px;align-items:center;margin-top:11px">
+      <span class="hint" id="batch-count">0 tickets</span><div class="spacer"></div>
+      <button class="ghost sm" id="load-samples">Load samples</button>
+      <button class="sm" id="go-batch">Classify batch</button>
+    </div>
+    <div class="out" id="batch-out" aria-live="polite"><p class="hint">Results come back in request order, each echoing its ticket_id.</p></div>
+  </div></section>
+</div>
+
+<div class="grid">
+  <section class="card"><div class="ch"><i>3</i><h2>Async batch job (up to 5,000)</h2></div><div class="cb">
+    <p class="hint" style="margin:0 0 11px">Large batches run as a background job: submit, poll for progress, then fetch
+       ordered results. Upload a UTF-8 CSV with <span class="mono">ticket_id, channel, subject, text</span>, or generate
+       synthetic tickets to demonstrate the lifecycle.</p>
+    <label for="csv">Ticket CSV (optional)</label><input id="csv" type="file" accept=".csv,text/csv">
+    <div style="margin-top:11px"><label for="synth">…or number of synthetic tickets</label>
+      <input id="synth" type="number" min="1" max="5000" value="200"></div>
+    <div style="display:flex;gap:9px;margin-top:12px">
+      <button id="go-job" style="flex:1">Submit async job</button>
+      <button class="ghost" id="cancel-job" hidden>Discard</button>
+      <button class="ghost" id="dl-job" hidden>Download CSV</button>
+    </div>
+    <div class="out" aria-live="polite">
+      <p class="hint" id="job-label">No job running.</p>
+      <progress id="job-bar" value="0" max="1"></progress>
+      <p class="hint mono" id="job-detail"></p>
+    </div>
+  </div></section>
+
+  <section class="card"><div class="ch"><i>4</i><h2>Category → team mapping</h2></div><div class="cb" style="padding:0">
+    <div class="scroll"><table><thead><tr><th>Category</th><th>Assigned team</th></tr></thead><tbody id="map"></tbody></table></div>
+  </div></section>
+</div>
+
+<div id="msg" class="msg" role="alert"></div>
+
+<section class="about">
+  <h3>About the model</h3>
+  <p>Approach, measured performance and operational detail. Every number below was measured on this project.</p>
+  <div class="acards">
+    <div class="ac"><b>Architecture</b><p>Word (1–2) and character <span class="mono">char_wb</span> (2–6) TF-IDF plus a
+      one-hot channel. The primary is a soft vote of two calibrated LinearSVC members over two tokenisations, fitted on all
+      4,000 training rows with five-fold out-of-fold calibration, then a temperature of 0.85. Urgency is a separate
+      two-member vote over character 3–6; secondary presence and the secondary label are separate models again.</p></div>
+    <div class="ac"><b>Performance (validation, n=800)</b>
+      <div class="l"><span>Category accuracy</span><span>64.50%</span></div>
+      <div class="l"><span>Category macro-F1</span><span>67.25%</span></div>
+      <div class="l"><span>Urgency F1 (P 93.2 / R 85.0)</span><span>88.89%</span></div>
+      <div class="l"><span>Secondary-presence F1</span><span>86.71%</span></div>
+      <div class="l"><span>Exact triple match</span><span>61.62%</span></div>
+      <div class="l"><span>Calibration error (ECE)</span><span>0.0275</span></div></div>
+    <div class="ac"><b>Multilingual coverage</b>
+      <div class="l"><span>Singlish</span><span>96.0%</span></div>
+      <div class="l"><span>Tanglish</span><span>75.0%</span></div>
+      <div class="l"><span>Tamil</span><span>65.8%</span></div>
+      <div class="l"><span>Mixed script</span><span>60.0%</span></div>
+      <div class="l"><span>English</span><span>56.1%</span></div>
+      <div class="l"><span>Sinhala</span><span>38.1%</span></div>
+      <p style="margin-top:7px;font-size:11.5px;color:var(--dim)">Character n-grams carry Sinhala and Tamil script without
+        tokenisation. Sinhala remains the weakest language and is a documented limitation.</p></div>
+    <div class="ac"><b>Security</b><p>The evaluation key is read from the <span class="mono">API_KEY</span> environment
+      variable and compared in constant time. <strong>This page never receives it.</strong> The demo sits behind its own
+      credentials and proxies every call server-side, so the key is never in browser JavaScript, an image layer, a log or
+      the release archive. A missing key fails closed with 401.</p></div>
+    <div class="ac"><b>Human review</b><p>The optional <span class="mono">needs_human_review</span> flag is
+      <span class="mono">confidence &lt; 0.525</span>, the smallest cut that reaches 80% accuracy on auto-routed tickets.
+      On held-out rows it flags 34% of tickets; the auto-routed remainder is right 80.3% of the time, against 33.1% for
+      the flagged slice.</p></div>
+    <div class="ac"><b>Latency and container</b>
+      <div class="l"><span>Single prediction p95</span><span>0.069 s</span></div>
+      <div class="l"><span>100-ticket batch p95</span><span>1.12 s</span></div>
+      <div class="l"><span>5,000-ticket job</span><span>67.6 s</span></div>
+      <div class="l"><span>Cold readiness</span><span>4.6 s</span></div>
+      <p style="margin-top:7px"><span class="mono">docker run -p 8000:8000 -e API_KEY=&lt;key&gt; tensorforge:local</span><br>
+      All artifacts are baked in and no internet access is needed at runtime. Measured on a laptop, not the 2 vCPU reference host.</p></div>
+  </div>
+</section>
+<footer>TensorForge 2.0 · Phase 2 MVP · Synthetic workshop data — confirm every prediction before acting on it.<br>
+  <span class="mono" id="foot-ver">model version loading…</span></footer>
+</main>
+
+<script>
+const $=function(i){return document.getElementById(i)};
+const CATS=[["payment_refund","Payments & Refunds"],["ride_trip_issue","Ride Operations"],["lost_item","Lost & Found"],
+ ["order_missing_wrong","Food Operations"],["delivery_delay","Delivery Operations"],["food_quality","Restaurant Quality"],
+ ["account_promo","Account Services"],["safety_conduct","Trust & Safety"],["app_technical","Tech Support"],
+ ["general_inquiry","Front-line Support"],["spam_irrelevant","Auto-close / Spam Filter"]];
+const SAMPLES=[
+ ["Delivery delay","chat","My food has not arrived although the tracking says it was handed over more than an hour ago."],
+ ["Safety (urgent)","call_transcript","customer: the driver is not stopping the car and he took a wrong turn i am scared please help"],
+ ["Singlish","chat","bro mage order eka hour ekakata wada late, driver call ganne na. refund ekak denna"],
+ ["Sinhala","chat","කාර් එකේ මගේ බෑග් එක අමතක වුණා, ඩ්‍රයිවර්ට කතා කරන්න පුළුවන්ද?"],
+ ["Tamil","chat","என் ஆர்டர்ல ஒரு ஐட்டம் வரல, பணம் திருப்பி தாங்க"],
+ ["Refund dispute","email","One transaction has produced two separate deductions on my statement."],
+ ["Spam","chat","WIN A FREE PHONE NOW!!! click this link to claim your prize"]];
+let job=null,jobResults=null,timer=null;
+
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e}
+function err(e){$('msg').textContent=(e&&e.message)?e.message:String(e)}
+async function api(path,opt){
+ // location.origin never carries credentials; a relative URL would inherit any
+ // user:pass@host in the address bar and fetch() refuses to build such a Request.
+ var r=await fetch(new URL('/api/'+path,location.origin),opt||{});
+ if(r.status===204)return null;
+ var d=await r.json().catch(function(){return{}});
+ if(!r.ok)throw Error((d.error&&d.error.message)||('Request failed ('+r.status+')'));
+ return d}
+function post(b){return{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(b)}}
+
+CATS.forEach(function(c){var r=el('tr');r.append(el('td','k',c[0]),el('td',null,c[1]));$('map').append(r)});
+SAMPLES.forEach(function(s){var b=el('button','chip',s[0]);b.type='button';
+ b.addEventListener('click',function(){$('channel').value=s[1];$('text').value=s[2];$('subject').value='';$('text').focus()});
+ $('samples').append(b)});
+
+function setBadge(id,txtId,cls,txt){$(id).className='badge'+(cls?' '+cls:'');$(txtId).textContent=txt}
+async function health(manual){
+ if(manual){setBadge('conn-badge','conn-text','wait','Testing…')}
+ try{
+  var r=await fetch(new URL('/api/health',location.origin));var s=await r.json();
+  // Three distinct states. A dead backend answers through the proxy as 502 with an error
+  // body rather than throwing, so "not ok" alone must not be reported as "loading".
+  var ready=r.ok&&s.status==='ok';
+  var loading=s.status==='loading';
+  var cls=ready?'ok':(loading?'wait':'bad');
+  setBadge('hdr-badge','hdr-text',cls,ready?'API ready':(loading?'Model loading':'API unavailable'));
+  setBadge('conn-badge','conn-text',cls,ready?'Connected':(loading?'Loading':'Disconnected'));
+  var v=s.model_version||'—';
+  $('conn-ver').textContent=v;$('conn-ver').title=v;$('foot-ver').textContent='model version '+v;
+  $('conn-when').textContent='Last checked '+new Date().toLocaleTimeString();
+  document.querySelectorAll('#go-single,#go-batch,#go-job').forEach(function(b){b.disabled=!ready});
+ }catch(e){
+  setBadge('hdr-badge','hdr-text','bad','API unavailable');
+  setBadge('conn-badge','conn-text','bad','Disconnected');
+  $('conn-ver').textContent='—';
+  $('conn-when').textContent='Last checked '+new Date().toLocaleTimeString();
+  document.querySelectorAll('#go-single,#go-batch,#go-job').forEach(function(b){b.disabled=true});
+ }}
+$('test-conn').addEventListener('click',function(){health(true)});
+health();setInterval(health,15000);
+
+function render(p,target){
+ target.replaceChildren();
+ var top=el('div');
+ top.append(el('span','pill cat',p.category.replace(/_/g,' ')),el('span','pill team',p.team));
+ top.append(el('span','pill '+(p.is_urgent?'urg':'calm'),p.is_urgent?'URGENT':'not urgent'));
+ if(p.needs_human_review)top.append(el('span','pill rev','needs review'));
+ target.append(top);
+ target.append(el('p','hint','Secondary issue: '+(p.secondary_category?p.secondary_category.replace(/_/g,' '):'none')));
+ var m=el('div','meter');var f=el('i');f.style.width=(100*p.confidence).toFixed(1)+'%';m.append(f);
+ target.append(el('p','hint','Confidence '+(100*p.confidence).toFixed(1)+'%'),m);
+ var d=el('details');d.append(el('summary','hint','Full JSON response'),el('pre',null,JSON.stringify(p,null,2)));
+ target.append(d)}
+
+$('go-single').addEventListener('click',async function(){
+ $('msg').textContent='';
+ if(!$('text').value.trim()){err(Error('Enter ticket text first.'));return}
+ $('go-single').disabled=true;
+ try{render(await api('predict',post({channel:$('channel').value,subject:$('subject').value,text:$('text').value})),$('single-out'))}
+ catch(e){err(e)}finally{$('go-single').disabled=false}});
+
+function parseBatch(){
+ return $('batch').value.split('\n').map(function(l){return l.trim()}).filter(Boolean).map(function(l,i){
+  var p=l.split('|').map(function(x){return x.trim()});
+  if(p.length>=3)return{ticket_id:p[0],channel:p[1],text:p.slice(2).join(' | ')};
+  return{ticket_id:'T-'+String(i+1).padStart(3,'0'),channel:'chat',text:l}})}
+function countBatch(){var n=parseBatch().length;
+ $('batch-count').textContent=n+' ticket'+(n===1?'':'s')+(n>100?' — over the 100 limit':'')}
+$('batch').addEventListener('input',countBatch);
+$('load-samples').addEventListener('click',function(){
+ $('batch').value=SAMPLES.map(function(s,i){
+  return 'T-'+String(i+1).padStart(3,'0')+' | '+s[1]+' | '+s[2].replace(/\n/g,' ')}).join('\n');
+ countBatch()});
+$('go-batch').addEventListener('click',async function(){
+ $('msg').textContent='';var tickets=parseBatch();
+ if(!tickets.length){err(Error('Add at least one ticket line.'));return}
+ if(tickets.length>100){err(Error('The synchronous batch accepts at most 100 tickets; use the async job below.'));return}
+ $('go-batch').disabled=true;
+ try{
+  var r=await api('predict/batch',post({tickets:tickets}));
+  var out=$('batch-out');out.replaceChildren();
+  var tb=el('tbody');
+  r.predictions.forEach(function(p){var tr=el('tr');
+   tr.append(el('td','k',p.ticket_id),el('td',null,p.category.replace(/_/g,' ')),el('td',null,p.team),
+             el('td',null,p.is_urgent?'urgent':'—'),el('td',null,(100*p.confidence).toFixed(0)+'%'));
+   tb.append(tr)});
+  var tbl=el('table'),th=el('thead'),hr=el('tr');
+  ['Ticket','Category','Team','Urgent','Conf.'].forEach(function(h){hr.append(el('th',null,h))});
+  th.append(hr);tbl.append(th,tb);
+  var sc=el('div','scroll');sc.append(tbl);
+  out.append(el('p','hint ok-msg',r.predictions.length+' predictions returned in request order.'),sc);
+ }catch(e){err(e)}finally{$('go-batch').disabled=false}});
+
+async function poll(){
+ var mine=job;if(!mine)return;
+ try{
+  var s=await api('batch/jobs/'+mine);if(job!==mine)return;
+  $('job-bar').max=s.total;$('job-bar').value=s.processed;
+  $('job-label').textContent=s.status.charAt(0).toUpperCase()+s.status.slice(1)+' — '+s.processed+' of '+s.total+' tickets';
+  $('job-detail').textContent='job '+s.job_id;
+  if(s.status==='succeeded'){
+   var r=await api('batch/jobs/'+mine+'/results');if(job!==mine)return;
+   jobResults=r.predictions;$('dl-job').hidden=false;$('go-job').disabled=false;
+   $('job-label').textContent='Succeeded — '+r.predictions.length+' predictions ready, in submitted order.';
+   return}
+  if(s.status==='failed'||s.status==='cancelled'){throw Error((s.error&&s.error.message)||('Job '+s.status+'.'))}
+  timer=setTimeout(poll,2000);
+ }catch(e){if(job===mine){err(e);$('go-job').disabled=false}}}
+
+$('go-job').addEventListener('click',async function(){
+ $('msg').textContent='';$('dl-job').hidden=true;jobResults=null;$('go-job').disabled=true;
+ try{
+  var tickets,f=$('csv').files[0];
+  if(f){
+   if(f.size>25*1024*1024)throw Error('CSV exceeds 25 MB.');
+   tickets=(await api('import',{method:'POST',body:await f.text()})).tickets;
+  }else{
+   var n=Math.max(1,Math.min(5000,parseInt($('synth').value,10)||0));
+   tickets=Array.from({length:n},function(_,i){var s=SAMPLES[i%SAMPLES.length];
+    return{ticket_id:'SYN-'+String(i+1).padStart(5,'0'),channel:s[1],subject:'',text:s[2]}});
+  }
+  var s2=await api('batch/jobs',post({tickets:tickets}));
+  job=s2.job_id;$('cancel-job').hidden=false;$('job-bar').value=0;$('job-bar').max=s2.total;poll();
+ }catch(e){err(e);$('go-job').disabled=false}});
+
+$('cancel-job').addEventListener('click',async function(){
+ if(!job)return;
+ try{await api('batch/jobs/'+job,{method:'DELETE'});clearTimeout(timer);job=null;jobResults=null;
+  $('job-label').textContent='Job discarded.';$('job-detail').textContent='';$('job-bar').value=0;
+  $('cancel-job').hidden=true;$('dl-job').hidden=true;$('go-job').disabled=false}
+ catch(e){err(e)}});
+
+$('dl-job').addEventListener('click',function(){
+ if(!jobResults)return;
+ var cols=['ticket_id','category','secondary_category','team','is_urgent','confidence','needs_human_review','model_version'];
+ var q=function(v){return '"'+String(v===null||v===undefined?'':v).replace(/"/g,'""')+'"'};
+ var csv=[cols.join(',')].concat(jobResults.map(function(r){
+  return cols.map(function(k){return q(r[k])}).join(',')})).join('\r\n');
+ var url=URL.createObjectURL(new Blob(['﻿'+csv],{type:'text/csv;charset=utf-8'}));
+ var a=el('a');a.href=url;a.download='rideeat-predictions.csv';a.click();
+ setTimeout(function(){URL.revokeObjectURL(url)},1000)});
+countBatch();
+</script></body></html>

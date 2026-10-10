@@ -1,0 +1,23 @@
+[Unit]
+Description=TensorForge private demo proxy
+After=network.target tensorforge-api.service
+Wants=tensorforge-api.service
+
+[Service]
+Type=simple
+User=tensorforge
+Group=tensorforge
+WorkingDirectory=/opt/tensorforge
+EnvironmentFile=/etc/tensorforge/demo.env
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/opt/tensorforge/.venv/bin/python -m uvicorn frontend.server:app --host 127.0.0.1 --port 8501 --workers 1
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+MemoryMax=512M
+
+[Install]
+WantedBy=multi-user.target

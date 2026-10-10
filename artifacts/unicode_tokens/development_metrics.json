@@ -1,0 +1,449 @@
+{
+  "accuracy": 0.60875,
+  "macro_f1": 0.6380239516430989,
+  "weighted_f1": 0.6238669696934976,
+  "per_class": {
+    "account_promo": {
+      "precision": 0.84,
+      "recall": 0.5833333333333334,
+      "f1-score": 0.6885245901639344,
+      "support": 72.0
+    },
+    "app_technical": {
+      "precision": 0.8333333333333334,
+      "recall": 0.46875,
+      "f1-score": 0.6,
+      "support": 64.0
+    },
+    "delivery_delay": {
+      "precision": 0.8202247191011236,
+      "recall": 0.6083333333333333,
+      "f1-score": 0.6985645933014354,
+      "support": 120.0
+    },
+    "food_quality": {
+      "precision": 0.9230769230769231,
+      "recall": 0.42857142857142855,
+      "f1-score": 0.5853658536585366,
+      "support": 56.0
+    },
+    "general_inquiry": {
+      "precision": 0.3723404255319149,
+      "recall": 0.875,
+      "f1-score": 0.5223880597014925,
+      "support": 40.0
+    },
+    "lost_item": {
+      "precision": 0.3411764705882353,
+      "recall": 0.725,
+      "f1-score": 0.464,
+      "support": 40.0
+    },
+    "order_missing_wrong": {
+      "precision": 0.3392857142857143,
+      "recall": 0.3958333333333333,
+      "f1-score": 0.36538461538461536,
+      "support": 96.0
+    },
+    "payment_refund": {
+      "precision": 0.5157232704402516,
+      "recall": 0.5694444444444444,
+      "f1-score": 0.5412541254125413,
+      "support": 144.0
+    },
+    "ride_trip_issue": {
+      "precision": 0.9361702127659575,
+      "recall": 0.7857142857142857,
+      "f1-score": 0.8543689320388349,
+      "support": 112.0
+    },
+    "safety_conduct": {
+      "precision": 0.7096774193548387,
+      "recall": 0.6875,
+      "f1-score": 0.6984126984126984,
+      "support": 32.0
+    },
+    "spam_irrelevant": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 24.0
+    },
+    "accuracy": 0.60875,
+    "macro avg": {
+      "precision": 0.6937280444071176,
+      "recall": 0.6479527417027418,
+      "f1-score": 0.6380239516430989,
+      "support": 800.0
+    },
+    "weighted avg": {
+      "precision": 0.6885870049081859,
+      "recall": 0.60875,
+      "f1-score": 0.6238669696934976,
+      "support": 800.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      42,
+      2,
+      2,
+      0,
+      12,
+      1,
+      0,
+      12,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      30,
+      1,
+      0,
+      0,
+      0,
+      25,
+      6,
+      0,
+      1,
+      0
+    ],
+    [
+      4,
+      0,
+      73,
+      1,
+      4,
+      1,
+      19,
+      15,
+      1,
+      2,
+      0
+    ],
+    [
+      0,
+      1,
+      2,
+      24,
+      2,
+      1,
+      20,
+      5,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      35,
+      0,
+      0,
+      3,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      1,
+      3,
+      29,
+      1,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      9,
+      24,
+      38,
+      24,
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      2,
+      0,
+      27,
+      24,
+      7,
+      82,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      4,
+      0,
+      2,
+      0,
+      2,
+      9,
+      88,
+      4,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      3,
+      1,
+      22,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      24
+    ]
+  ],
+  "classes": [
+    "account_promo",
+    "app_technical",
+    "delivery_delay",
+    "food_quality",
+    "general_inquiry",
+    "lost_item",
+    "order_missing_wrong",
+    "payment_refund",
+    "ride_trip_issue",
+    "safety_conduct",
+    "spam_irrelevant"
+  ],
+  "log_loss": 1.2633396934841108,
+  "brier_sum_over_classes": 0.5326833476087249,
+  "ece_10_equal_width_bins": 0.027180193556926,
+  "reliability_bins": [
+    {
+      "low": 0.1,
+      "count": 9,
+      "confidence": 0.18548083028928067,
+      "accuracy": 0.2222222222222222
+    },
+    {
+      "low": 0.2,
+      "count": 81,
+      "confidence": 0.25479809425293964,
+      "accuracy": 0.2962962962962963
+    },
+    {
+      "low": 0.30000000000000004,
+      "count": 98,
+      "confidence": 0.3482046586904211,
+      "accuracy": 0.35714285714285715
+    },
+    {
+      "low": 0.4,
+      "count": 112,
+      "confidence": 0.4501895803464846,
+      "accuracy": 0.42857142857142855
+    },
+    {
+      "low": 0.5,
+      "count": 92,
+      "confidence": 0.5449805492859826,
+      "accuracy": 0.45652173913043476
+    },
+    {
+      "low": 0.6000000000000001,
+      "count": 96,
+      "confidence": 0.6497432694058362,
+      "accuracy": 0.65625
+    },
+    {
+      "low": 0.7000000000000001,
+      "count": 77,
+      "confidence": 0.7493566269225201,
+      "accuracy": 0.7662337662337663
+    },
+    {
+      "low": 0.8,
+      "count": 87,
+      "confidence": 0.8512059584470981,
+      "accuracy": 0.8160919540229885
+    },
+    {
+      "low": 0.9,
+      "count": 148,
+      "confidence": 0.9551511032278797,
+      "accuracy": 0.9662162162162162
+    }
+  ],
+  "selective_risk": [
+    {
+      "threshold": 0.0,
+      "coverage": 1.0,
+      "risk": 0.39125
+    },
+    {
+      "threshold": 0.05,
+      "coverage": 1.0,
+      "risk": 0.39125
+    },
+    {
+      "threshold": 0.1,
+      "coverage": 1.0,
+      "risk": 0.39125
+    },
+    {
+      "threshold": 0.15000000000000002,
+      "coverage": 1.0,
+      "risk": 0.39125
+    },
+    {
+      "threshold": 0.2,
+      "coverage": 0.98875,
+      "risk": 0.38685208596713017
+    },
+    {
+      "threshold": 0.25,
+      "coverage": 0.94875,
+      "risk": 0.3702239789196311
+    },
+    {
+      "threshold": 0.30000000000000004,
+      "coverage": 0.8875,
+      "risk": 0.35070422535211265
+    },
+    {
+      "threshold": 0.35000000000000003,
+      "coverage": 0.8225,
+      "risk": 0.3221884498480243
+    },
+    {
+      "threshold": 0.4,
+      "coverage": 0.765,
+      "risk": 0.303921568627451
+    },
+    {
+      "threshold": 0.45,
+      "coverage": 0.69625,
+      "risk": 0.2764811490125674
+    },
+    {
+      "threshold": 0.5,
+      "coverage": 0.625,
+      "risk": 0.244
+    },
+    {
+      "threshold": 0.55,
+      "coverage": 0.5575,
+      "risk": 0.19730941704035876
+    },
+    {
+      "threshold": 0.6000000000000001,
+      "coverage": 0.51,
+      "risk": 0.17647058823529416
+    },
+    {
+      "threshold": 0.65,
+      "coverage": 0.44875,
+      "risk": 0.15320334261838442
+    },
+    {
+      "threshold": 0.7000000000000001,
+      "coverage": 0.39,
+      "risk": 0.125
+    },
+    {
+      "threshold": 0.75,
+      "coverage": 0.3425,
+      "risk": 0.0985401459854015
+    },
+    {
+      "threshold": 0.8,
+      "coverage": 0.29375,
+      "risk": 0.08936170212765959
+    },
+    {
+      "threshold": 0.8500000000000001,
+      "coverage": 0.23875,
+      "risk": 0.06282722513089001
+    },
+    {
+      "threshold": 0.9,
+      "coverage": 0.185,
+      "risk": 0.03378378378378377
+    },
+    {
+      "threshold": 0.9500000000000001,
+      "coverage": 0.115,
+      "risk": 0.021739130434782594
+    }
+  ],
+  "subgroups": {
+    "language": {
+      "en": {
+        "count": 280,
+        "accuracy": 0.5535714285714286
+      },
+      "mixed": {
+        "count": 20,
+        "accuracy": 0.55
+      },
+      "si": {
+        "count": 160,
+        "accuracy": 0.34375
+      },
+      "singlish": {
+        "count": 200,
+        "accuracy": 0.9
+      },
+      "ta": {
+        "count": 120,
+        "accuracy": 0.6166666666666667
+      },
+      "tanglish": {
+        "count": 20,
+        "accuracy": 0.6
+      }
+    },
+    "channel": {
+      "call_transcript": {
+        "count": 200,
+        "accuracy": 0.59
+      },
+      "chat": {
+        "count": 360,
+        "accuracy": 0.6277777777777778
+      },
+      "email": {
+        "count": 240,
+        "accuracy": 0.5958333333333333
+      }
+    }
+  },
+  "exact_triple_match": 0.57625,
+  "split": "supplied validation reused for development diagnostics; not an independent unseen test"
+}

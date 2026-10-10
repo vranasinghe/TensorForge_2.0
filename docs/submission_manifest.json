@@ -1,0 +1,10 @@
+{
+  "api_url": null,
+  "demo_url": null,
+  "github_repository_url": null,
+  "youtube_video_url": null,
+  "api_key_delivery": "Inject privately on the approved server; never record the value here",
+  "docker_verification": "deferred at user request",
+  "official_guideline_pdfs": "not supplied",
+  "external_actions": "pending authenticated hosting/GitHub/YouTube access and real URLs"
+}

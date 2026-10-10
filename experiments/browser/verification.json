@@ -1,0 +1,16 @@
+{
+  "method": "isolated headless Chrome, actual private frontend and backend",
+  "checks": [
+    "authenticated page, actual readiness, no backend key in browser",
+    "keyboard focus reaches the ticket controls",
+    "English, Sinhala and Tamil ticket entry and backend responses",
+    "quoted multiline Unicode CSV upload, async progress and actual CSV download",
+    "discard completed batch and submit another batch",
+    "invalid whitespace input displayed without browser crash",
+    "390px responsive layout without horizontal overflow",
+    "late polling response after DELETE cannot restore a discarded batch",
+    "no uncaught browser exceptions"
+  ],
+  "browser_version": "154.0.8037.99",
+  "errors": []
+}

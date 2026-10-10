@@ -1,0 +1,6356 @@
+[
+  {
+    "ticket_id": "TF-VA-000432",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.245874628078,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000432"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000262",
+    "language": "en",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "team": "Restaurant Quality",
+      "is_urgent": false,
+      "confidence": 0.788209148429,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000262"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000665",
+    "language": "en",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.393097960727,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000665"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000001",
+    "language": "en",
+    "actual": {
+      "category": "safety_conduct",
+      "secondary_category": "ride_trip_issue",
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "ride_trip_issue",
+      "secondary_category": "payment_refund",
+      "team": "Ride Operations",
+      "is_urgent": false,
+      "confidence": 0.370161433238,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000001"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000782",
+    "language": "ta",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": "payment_refund",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": "payment_refund",
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.59978821869,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000782"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000707",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.218814412619,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000707"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000141",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.396445222698,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000141"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000763",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.959535226316,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000763"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000526",
+    "language": "ta",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.728486756558,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000526"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000310",
+    "language": "si",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.34106061829,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000310"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000135",
+    "language": "en",
+    "actual": {
+      "category": "lost_item",
+      "secondary_category": "ride_trip_issue",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.867122437714,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000135"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000502",
+    "language": "ta",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.37479664103,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000502"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000095",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.446096159642,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000095"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000345",
+    "language": "ta",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": "payment_refund",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": "payment_refund",
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.256132251398,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000345"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000594",
+    "language": "tanglish",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.565497027802,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000594"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000555",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": true,
+      "confidence": 0.856464378817,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000555"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000253",
+    "language": "si",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.653267230422,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000253"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000628",
+    "language": "singlish",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.37938015471,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000628"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000468",
+    "language": "si",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.481018074643,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000468"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000765",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": true,
+      "confidence": 0.381087762109,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000765"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000368",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.356737524091,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000368"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000435",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.232438986421,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000435"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000242",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "team": "Tech Support",
+      "is_urgent": false,
+      "confidence": 0.445281956225,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000242"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000204",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "team": "Trust & Safety",
+      "is_urgent": false,
+      "confidence": 0.273191913419,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000204"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000069",
+    "language": "si",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": "payment_refund",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": "payment_refund",
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.578129750333,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000069"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000101",
+    "language": "en",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": "app_technical",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.622561020683,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000101"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000556",
+    "language": "si",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.196427916998,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000556"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000749",
+    "language": "ta",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.61826876732,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000749"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000530",
+    "language": "si",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.537506153131,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000530"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000731",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.468858352187,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000731"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000005",
+    "language": "ta",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.323930558466,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000005"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000515",
+    "language": "si",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.19026731455,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000515"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000223",
+    "language": "ta",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.295220348388,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000223"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000535",
+    "language": "tanglish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.470101766758,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000535"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000523",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.331540645524,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000523"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000156",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.468840929374,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000156"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000197",
+    "language": "ta",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.331372704376,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000197"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000775",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.548904246461,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000775"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000300",
+    "language": "si",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.713160260553,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000300"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000385",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.622837734032,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000385"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000077",
+    "language": "en",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "team": "Trust & Safety",
+      "is_urgent": false,
+      "confidence": 0.764529317136,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000077"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000655",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.747911541013,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000655"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000509",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.357481200041,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000509"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000034",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.317630675714,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000034"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000659",
+    "language": "si",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.391934012417,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000659"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000181",
+    "language": "en",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.749478244444,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000181"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000550",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.411322683584,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000550"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000586",
+    "language": "en",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.318436841854,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000586"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000196",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.362127092317,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000196"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000384",
+    "language": "si",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.665700426601,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000384"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000587",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.524282637859,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000587"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000662",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.476870722231,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000662"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000561",
+    "language": "en",
+    "actual": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.521924932896,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000561"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000128",
+    "language": "si",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": "payment_refund",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": "payment_refund",
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.482846907842,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000128"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000741",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.594646007157,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000741"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000230",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.325075315588,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000230"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000595",
+    "language": "si",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.815174004575,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000595"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000205",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.447097685076,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000205"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000251",
+    "language": "en",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": "app_technical",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "account_promo",
+      "secondary_category": "payment_refund",
+      "team": "Account Services",
+      "is_urgent": false,
+      "confidence": 0.909604850067,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000251"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000754",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": "ride_trip_issue",
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.451383989381,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000754"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000370",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.34800580898,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000370"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000022",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.286133006349,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000022"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000157",
+    "language": "si",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.335086639761,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000157"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000198",
+    "language": "en",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.347885120994,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000198"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000314",
+    "language": "si",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.460725557097,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000314"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000229",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.252465309058,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000229"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000491",
+    "language": "ta",
+    "actual": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.215535226542,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000491"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000250",
+    "language": "ta",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.413092604415,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000250"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000091",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "team": "Tech Support",
+      "is_urgent": false,
+      "confidence": 0.656497065902,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000091"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000199",
+    "language": "en",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": "payment_refund",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.240872186936,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000199"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000610",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.264450891881,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000610"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000564",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.468348240702,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000564"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000541",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": "payment_refund",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.615221021264,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000541"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000225",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.260560809912,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000225"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000604",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": "payment_refund",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.577849059527,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000604"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000162",
+    "language": "ta",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.82937725921,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000162"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000718",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": "ride_trip_issue",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": "ride_trip_issue",
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.355704846576,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000718"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000394",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.200493395094,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000394"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000093",
+    "language": "ta",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": "payment_refund",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": "payment_refund",
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.509725687171,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000093"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000752",
+    "language": "si",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.462581662454,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000752"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000724",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.575995206591,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000724"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000256",
+    "language": "ta",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.698233795181,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000256"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000589",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.482172919527,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000589"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000596",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": "order_missing_wrong",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.916004297378,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000596"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000237",
+    "language": "ta",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.389663911956,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000237"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000343",
+    "language": "si",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.446410634238,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000343"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000576",
+    "language": "si",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.273772653742,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000576"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000513",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.916818079008,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000513"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000361",
+    "language": "en",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "team": "Trust & Safety",
+      "is_urgent": true,
+      "confidence": 0.37263454228,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000361"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000516",
+    "language": "ta",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.261255371179,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000516"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000018",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": "order_missing_wrong",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": true,
+      "confidence": 0.835942277336,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000018"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000473",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "team": "Tech Support",
+      "is_urgent": false,
+      "confidence": 0.206990287193,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000473"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000320",
+    "language": "singlish",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "team": "Account Services",
+      "is_urgent": false,
+      "confidence": 0.266744861914,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000320"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000641",
+    "language": "en",
+    "actual": {
+      "category": "lost_item",
+      "secondary_category": "ride_trip_issue",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.292602564,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000641"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000311",
+    "language": "si",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.347832675264,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000311"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000289",
+    "language": "en",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.823676026854,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000289"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000551",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.681150873508,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000551"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000512",
+    "language": "en",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.36179676654,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000512"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000327",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.29168410326,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000327"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000292",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.695786115189,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000292"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000496",
+    "language": "ta",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.404256108386,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000496"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000661",
+    "language": "mixed",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.262360210178,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000661"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000326",
+    "language": "ta",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": "ride_trip_issue",
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.250940113256,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000326"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000699",
+    "language": "ta",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": "payment_refund",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": "payment_refund",
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.33659688077,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000699"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000572",
+    "language": "en",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.530006095969,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000572"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000043",
+    "language": "en",
+    "actual": {
+      "category": "lost_item",
+      "secondary_category": "ride_trip_issue",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": "ride_trip_issue",
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.343489743399,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000043"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000455",
+    "language": "si",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.473275850036,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000455"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000263",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.867696131337,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000263"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000144",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.316050045623,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000144"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000083",
+    "language": "ta",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.20921095891,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000083"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000116",
+    "language": "si",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.354407329583,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000116"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000299",
+    "language": "ta",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.524025043791,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000299"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000533",
+    "language": "ta",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.192813037155,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000533"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000303",
+    "language": "si",
+    "actual": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": true,
+      "confidence": 0.397291654782,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000303"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000705",
+    "language": "si",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.428286056534,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000705"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000781",
+    "language": "en",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.925799577208,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000781"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000044",
+    "language": "en",
+    "actual": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.359942099294,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000044"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000546",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.489506503955,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000546"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000036",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "team": "Account Services",
+      "is_urgent": false,
+      "confidence": 0.472626845337,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000036"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000019",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.507373847985,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000019"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000094",
+    "language": "si",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.604617621369,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000094"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000614",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.256563976531,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000614"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000306",
+    "language": "tanglish",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": "payment_refund",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.459860651945,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000306"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000254",
+    "language": "ta",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.221116184595,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000254"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000216",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.417853795937,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000216"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000068",
+    "language": "si",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.395171583076,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000068"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000335",
+    "language": "singlish",
+    "actual": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "team": "Trust & Safety",
+      "is_urgent": false,
+      "confidence": 0.568724430407,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000335"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000735",
+    "language": "si",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.312474199805,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000735"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000620",
+    "language": "ta",
+    "actual": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": true,
+      "confidence": 0.286322982376,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000620"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000539",
+    "language": "tanglish",
+    "actual": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": true,
+      "confidence": 0.564232621449,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000539"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000107",
+    "language": "si",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.467575244061,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000107"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000189",
+    "language": "si",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.724259151199,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000189"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000358",
+    "language": "ta",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "team": "Trust & Safety",
+      "is_urgent": false,
+      "confidence": 0.469968471913,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000358"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000722",
+    "language": "en",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.403240461704,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000722"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000522",
+    "language": "ta",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "team": "Account Services",
+      "is_urgent": false,
+      "confidence": 0.204746226356,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000522"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000279",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.517039347363,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000279"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000004",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.364626184469,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000004"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000751",
+    "language": "en",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": "app_technical",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "team": "Account Services",
+      "is_urgent": false,
+      "confidence": 0.806372425203,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000751"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000528",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.928917312491,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000528"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000442",
+    "language": "si",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.763890150773,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000442"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000124",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.773977413358,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000124"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000200",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.338637348778,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000200"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000466",
+    "language": "si",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.502869653137,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000466"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000232",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.319881980608,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000232"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000210",
+    "language": "en",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.73301476356,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000210"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000329",
+    "language": "en",
+    "actual": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.672356576723,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000329"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000054",
+    "language": "mixed",
+    "actual": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.341991625637,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000054"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000438",
+    "language": "en",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.782639813957,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000438"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000742",
+    "language": "si",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.410554165158,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000742"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000690",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.325093816116,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000690"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000677",
+    "language": "si",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.249390986574,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000677"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000367",
+    "language": "en",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.540720956683,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000367"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000261",
+    "language": "en",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.366864159321,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000261"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000120",
+    "language": "si",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.485796816797,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000120"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000211",
+    "language": "ta",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.26164708467,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000211"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000150",
+    "language": "ta",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": true,
+      "confidence": 0.306374961178,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000150"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000382",
+    "language": "ta",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.320986615523,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000382"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000169",
+    "language": "ta",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "team": "Trust & Safety",
+      "is_urgent": false,
+      "confidence": 0.291329750335,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000169"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000624",
+    "language": "si",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.305541142054,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000624"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000151",
+    "language": "singlish",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.403844208753,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000151"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000328",
+    "language": "en",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.386976407313,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000328"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000621",
+    "language": "si",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.547706987488,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000621"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000602",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.464123559348,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000602"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000580",
+    "language": "en",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.385786874418,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000580"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000626",
+    "language": "en",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.634367976312,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000626"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000105",
+    "language": "en",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.273921702065,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000105"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000121",
+    "language": "en",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.563773904013,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000121"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000480",
+    "language": "en",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": "payment_refund",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.56997797107,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000480"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000518",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.536722516252,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000518"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000194",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "team": "Trust & Safety",
+      "is_urgent": false,
+      "confidence": 0.337058895853,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000194"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000387",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.461877814415,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000387"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000055",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.36827701322,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000055"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000764",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "team": "Ride Operations",
+      "is_urgent": false,
+      "confidence": 0.209010866807,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000764"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000366",
+    "language": "si",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.642370546419,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000366"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000537",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.536687110669,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000537"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000352",
+    "language": "si",
+    "actual": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": true,
+      "confidence": 0.425628158697,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000352"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000732",
+    "language": "ta",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": "payment_refund",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": "payment_refund",
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.563367729311,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000732"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000465",
+    "language": "si",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.520199260965,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000465"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000407",
+    "language": "si",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.388041234474,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000407"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000747",
+    "language": "si",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.264210557704,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000747"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000769",
+    "language": "ta",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.428988343653,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000769"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000625",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.628316215721,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000625"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000445",
+    "language": "si",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.393806434643,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000445"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000142",
+    "language": "mixed",
+    "actual": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.276912096491,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000142"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000064",
+    "language": "si",
+    "actual": {
+      "category": "safety_conduct",
+      "secondary_category": "ride_trip_issue",
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": "ride_trip_issue",
+      "team": "Lost & Found",
+      "is_urgent": true,
+      "confidence": 0.446602513038,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000064"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000136",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": "order_missing_wrong",
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.852750688148,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000136"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000680",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "team": "Tech Support",
+      "is_urgent": false,
+      "confidence": 0.249303161527,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000680"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000247",
+    "language": "ta",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.429597200802,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000247"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000030",
+    "language": "si",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": "payment_refund",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": "payment_refund",
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.780121627343,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000030"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000035",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.843321208351,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000035"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000377",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.367611180711,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000377"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000619",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.447800125366,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000619"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000648",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.681902797081,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000648"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000171",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "team": "Account Services",
+      "is_urgent": false,
+      "confidence": 0.560759274227,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000171"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000295",
+    "language": "en",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": "app_technical",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "team": "Account Services",
+      "is_urgent": false,
+      "confidence": 0.696971788549,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000295"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000517",
+    "language": "ta",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.310037635064,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000517"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000277",
+    "language": "si",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.557924737295,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000277"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000392",
+    "language": "si",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.409531579898,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000392"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000092",
+    "language": "singlish",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.318162658596,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000092"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000622",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": "delivery_delay",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": true,
+      "confidence": 0.463347027723,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000622"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000378",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.226508423379,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000378"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000477",
+    "language": "tanglish",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "team": "Account Services",
+      "is_urgent": false,
+      "confidence": 0.797660578069,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000477"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000333",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.628078729351,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000333"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000255",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": "ride_trip_issue",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": "ride_trip_issue",
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.448689182992,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000255"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000336",
+    "language": "ta",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "team": "Trust & Safety",
+      "is_urgent": false,
+      "confidence": 0.378233552234,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000336"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000187",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "team": "Account Services",
+      "is_urgent": false,
+      "confidence": 0.303214626219,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000187"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000056",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.259906091301,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000056"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000032",
+    "language": "ta",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": "payment_refund",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": "payment_refund",
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.307415636891,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000032"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000363",
+    "language": "en",
+    "actual": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.310257628552,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000363"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000233",
+    "language": "si",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.512391348266,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000233"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000193",
+    "language": "en",
+    "actual": {
+      "category": "safety_conduct",
+      "secondary_category": "ride_trip_issue",
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.692032586197,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000193"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000096",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.780848271362,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000096"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000439",
+    "language": "si",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.202079478174,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000439"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000190",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.4981974704,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000190"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000331",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": "payment_refund",
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": true,
+      "confidence": 0.546602339692,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000331"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000652",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": "ride_trip_issue",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": "ride_trip_issue",
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.54305759598,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000652"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000239",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "team": "Tech Support",
+      "is_urgent": false,
+      "confidence": 0.225214497628,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000239"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000560",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.359168503036,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000560"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000359",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "team": "Account Services",
+      "is_urgent": false,
+      "confidence": 0.362444600079,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000359"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000697",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": "payment_refund",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "team": "Account Services",
+      "is_urgent": false,
+      "confidence": 0.260887999553,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000697"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000176",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.858006106784,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000176"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000702",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.830909857992,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000702"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000591",
+    "language": "si",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.29972402337,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000591"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000129",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.297474799964,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000129"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000508",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "team": "Trust & Safety",
+      "is_urgent": false,
+      "confidence": 0.551939244598,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000508"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000125",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.554542898413,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000125"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000777",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.298975418489,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000777"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000344",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "team": "Trust & Safety",
+      "is_urgent": false,
+      "confidence": 0.293917607024,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000344"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000337",
+    "language": "mixed",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.354023818951,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000337"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000140",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.411851733474,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000140"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000149",
+    "language": "ta",
+    "actual": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.39825533891,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000149"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000524",
+    "language": "ta",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.249225940706,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000524"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000721",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.333540510548,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000721"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000425",
+    "language": "en",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": "app_technical",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "team": "Account Services",
+      "is_urgent": false,
+      "confidence": 0.651376011444,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000425"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000793",
+    "language": "ta",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.513972115874,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000793"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000505",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.41102380686,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000505"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000497",
+    "language": "si",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.605159335508,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000497"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000569",
+    "language": "en",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.308184367848,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000569"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000633",
+    "language": "en",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.367717019021,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000633"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000716",
+    "language": "si",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.433101932483,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000716"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000577",
+    "language": "si",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.357720756315,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000577"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000104",
+    "language": "mixed",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.399701667937,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000104"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000316",
+    "language": "en",
+    "actual": {
+      "category": "safety_conduct",
+      "secondary_category": "ride_trip_issue",
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": "ride_trip_issue",
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.562109789004,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000316"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000155",
+    "language": "si",
+    "actual": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.231554538333,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000155"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000079",
+    "language": "si",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.463335067233,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000079"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000271",
+    "language": "en",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "team": "Tech Support",
+      "is_urgent": false,
+      "confidence": 0.207568903827,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000271"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000241",
+    "language": "en",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.389261178032,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000241"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000339",
+    "language": "si",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.303123098383,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000339"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000570",
+    "language": "ta",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "team": "Trust & Safety",
+      "is_urgent": false,
+      "confidence": 0.733375320474,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000570"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000139",
+    "language": "si",
+    "actual": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "team": "Ride Operations",
+      "is_urgent": false,
+      "confidence": 0.309252127791,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000139"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000050",
+    "language": "mixed",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.172540149954,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000050"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000386",
+    "language": "si",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.327729934321,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000386"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000393",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.383073569018,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000393"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000417",
+    "language": "singlish",
+    "actual": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.290631529486,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000417"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000041",
+    "language": "ta",
+    "actual": {
+      "category": "safety_conduct",
+      "secondary_category": "ride_trip_issue",
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": "ride_trip_issue",
+      "team": "Lost & Found",
+      "is_urgent": true,
+      "confidence": 0.462733770322,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000041"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000475",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.517689925215,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000475"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000597",
+    "language": "ta",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.338153906931,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000597"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000214",
+    "language": "ta",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.487348832844,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000214"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000547",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": "order_missing_wrong",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.418989185843,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000547"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000581",
+    "language": "si",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.416527428831,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000581"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000776",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "team": "Tech Support",
+      "is_urgent": false,
+      "confidence": 0.258391968605,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000776"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000288",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.482783457328,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000288"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000114",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.318954657948,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000114"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000038",
+    "language": "si",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.523916912304,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000038"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000653",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.726018915091,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000653"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000265",
+    "language": "mixed",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.548346771119,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000265"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000674",
+    "language": "singlish",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.489314705189,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000674"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000234",
+    "language": "si",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.32363608695,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000234"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000495",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.365709256358,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000495"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000645",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.447386334939,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000645"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000757",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.875997107886,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000757"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000504",
+    "language": "en",
+    "actual": {
+      "category": "safety_conduct",
+      "secondary_category": "ride_trip_issue",
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "team": "Ride Operations",
+      "is_urgent": false,
+      "confidence": 0.975493259558,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000504"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000431",
+    "language": "si",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.460725410444,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000431"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000388",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.288122798814,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000388"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000015",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.496892552151,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000015"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000590",
+    "language": "tanglish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.55590333692,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000590"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000269",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.680225744955,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000269"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000457",
+    "language": "si",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.381087008225,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000457"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000482",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.401311314203,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000482"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000798",
+    "language": "si",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.44496515412,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000798"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000186",
+    "language": "si",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "team": "Trust & Safety",
+      "is_urgent": false,
+      "confidence": 0.370132233426,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000186"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000461",
+    "language": "ta",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.261365372108,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000461"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000783",
+    "language": "ta",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.930567880883,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000783"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000281",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.355438852116,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000281"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000356",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.81283309829,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000356"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000772",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.339326475666,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000772"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000421",
+    "language": "si",
+    "actual": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.273823996286,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000421"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000650",
+    "language": "si",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.292807833305,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000650"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000053",
+    "language": "ta",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.206592891471,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000053"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000692",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": "delivery_delay",
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": true,
+      "confidence": 0.856253289135,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000692"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000379",
+    "language": "ta",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "team": "Account Services",
+      "is_urgent": false,
+      "confidence": 0.215941303974,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000379"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000170",
+    "language": "en",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.362465036791,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000170"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000766",
+    "language": "si",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.365459240017,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000766"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000002",
+    "language": "si",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.579809498501,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000002"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000046",
+    "language": "en",
+    "actual": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.376214249799,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000046"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000280",
+    "language": "si",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.416703125204,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000280"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000492",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.423305476189,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000492"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000381",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.39180355944,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000381"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000172",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "team": "Tech Support",
+      "is_urgent": false,
+      "confidence": 0.272131774608,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000172"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000408",
+    "language": "si",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.54051328989,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000408"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000540",
+    "language": "si",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.676383218109,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000540"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000268",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.939261348636,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000268"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000103",
+    "language": "en",
+    "actual": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "team": "Trust & Safety",
+      "is_urgent": true,
+      "confidence": 0.932988967057,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000103"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000236",
+    "language": "en",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": "payment_refund",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.59256055747,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000236"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000419",
+    "language": "en",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.384649953918,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000419"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000137",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.383356298242,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000137"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000534",
+    "language": "mixed",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.234567647347,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000534"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000470",
+    "language": "tanglish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.585382990498,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000470"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000403",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": "delivery_delay",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.333889438972,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000403"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000119",
+    "language": "ta",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "team": "Trust & Safety",
+      "is_urgent": false,
+      "confidence": 0.398599791099,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000119"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000717",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.706262597483,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000717"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000272",
+    "language": "si",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.616779957253,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000272"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000025",
+    "language": "si",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.454655652524,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000025"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000582",
+    "language": "en",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.630679125681,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000582"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000658",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": "delivery_delay",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.859330185174,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000658"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000009",
+    "language": "singlish",
+    "actual": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "team": "Trust & Safety",
+      "is_urgent": false,
+      "confidence": 0.518741682389,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000009"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000285",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": "delivery_delay",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": "ride_trip_issue",
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.897460148054,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000285"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000758",
+    "language": "ta",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.42228562485,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000758"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000786",
+    "language": "si",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.330308387822,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000786"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000315",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": "delivery_delay",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.889779286366,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000315"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000685",
+    "language": "en",
+    "actual": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "team": "Ride Operations",
+      "is_urgent": false,
+      "confidence": 0.465497755041,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000685"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000574",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.29213240268,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000574"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000282",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": "order_missing_wrong",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.540576328661,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000282"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000494",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.568613204149,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000494"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000629",
+    "language": "tanglish",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.389930253035,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000629"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000375",
+    "language": "en",
+    "actual": {
+      "category": "lost_item",
+      "secondary_category": "ride_trip_issue",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.328228695264,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000375"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000100",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.50763261308,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000100"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000228",
+    "language": "singlish",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.339329271581,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000228"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000592",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "team": "Trust & Safety",
+      "is_urgent": false,
+      "confidence": 0.788948056823,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000592"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000257",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "team": "Account Services",
+      "is_urgent": false,
+      "confidence": 0.31792860879,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000257"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000671",
+    "language": "si",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.403086637554,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000671"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000296",
+    "language": "ta",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.259082118148,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000296"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000506",
+    "language": "singlish",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "team": "Front-line Support",
+      "is_urgent": false,
+      "confidence": 0.404669650192,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000506"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000739",
+    "language": "en",
+    "actual": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.190093050524,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000739"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000683",
+    "language": "si",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.427617861068,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000683"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000520",
+    "language": "si",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.378898231096,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000520"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000066",
+    "language": "si",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.581295779449,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000066"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000413",
+    "language": "ta",
+    "actual": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": true,
+      "confidence": 0.397488867396,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000413"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000274",
+    "language": "singlish",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.29693629312,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000274"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000607",
+    "language": "ta",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.362744071152,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000607"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000349",
+    "language": "ta",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.382778328093,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000349"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000578",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "food_quality",
+      "secondary_category": null,
+      "team": "Restaurant Quality",
+      "is_urgent": false,
+      "confidence": 0.240543255542,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000578"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000452",
+    "language": "si",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": "payment_refund",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": "payment_refund",
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.766811717015,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000452"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000799",
+    "language": "en",
+    "actual": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.232022023516,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000799"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000637",
+    "language": "si",
+    "actual": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "team": "Ride Operations",
+      "is_urgent": false,
+      "confidence": 0.278674912457,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000637"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000568",
+    "language": "en",
+    "actual": {
+      "category": "app_technical",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.597276510092,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000568"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000447",
+    "language": "si",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "order_missing_wrong",
+      "secondary_category": null,
+      "team": "Food Operations",
+      "is_urgent": false,
+      "confidence": 0.43744573247,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000447"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000554",
+    "language": "si",
+    "actual": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "is_urgent": true
+    },
+    "prediction": {
+      "category": "lost_item",
+      "secondary_category": null,
+      "team": "Lost & Found",
+      "is_urgent": false,
+      "confidence": 0.235024413913,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000554"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000398",
+    "language": "tanglish",
+    "actual": {
+      "category": "general_inquiry",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "safety_conduct",
+      "secondary_category": null,
+      "team": "Trust & Safety",
+      "is_urgent": false,
+      "confidence": 0.247595695139,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000398"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000600",
+    "language": "en",
+    "actual": {
+      "category": "ride_trip_issue",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "team": "Delivery Operations",
+      "is_urgent": false,
+      "confidence": 0.221975236236,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000600"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000759",
+    "language": "en",
+    "actual": {
+      "category": "delivery_delay",
+      "secondary_category": null,
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "account_promo",
+      "secondary_category": null,
+      "team": "Account Services",
+      "is_urgent": false,
+      "confidence": 0.412795777437,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000759"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000684",
+    "language": "en",
+    "actual": {
+      "category": "food_quality",
+      "secondary_category": "payment_refund",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.241619190798,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000684"
+    }
+  },
+  {
+    "ticket_id": "TF-VA-000469",
+    "language": "en",
+    "actual": {
+      "category": "payment_refund",
+      "secondary_category": "order_missing_wrong",
+      "is_urgent": false
+    },
+    "prediction": {
+      "category": "payment_refund",
+      "secondary_category": null,
+      "team": "Payments & Refunds",
+      "is_urgent": false,
+      "confidence": 0.769530417695,
+      "model_version": "sha256-171b93ced5c33849a292f12f0fdb6cfa38d61b9f0cb339b4bfbd42c9ea902564",
+      "ticket_id": "TF-VA-000469"
+    }
+  }
+]

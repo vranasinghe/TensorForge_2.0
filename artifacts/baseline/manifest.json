@@ -1,0 +1,395 @@
+{
+  "model_version": "sha256-babd6ea4fc1ff001a68e793769a46af851d765cfd8788834ce5ac3b3dcce479d",
+  "sha256": "babd6ea4fc1ff001a68e793769a46af851d765cfd8788834ce5ac3b3dcce479d",
+  "seed": 42,
+  "trained_at_utc": "2026-10-09T04:36:36.639955+00:00",
+  "selected_experiment": "E0_fallback",
+  "dataset_hashes": {
+    "TensorForge 2.0 - MVP Resources DataSet\\train.csv": "d4d360539b228575634d3dcbf65052b4538d61915c811ba46c34d0076f39c9b9",
+    "TensorForge 2.0 - MVP Resources DataSet\\train.jsonl": "5cf55e7dcec6a4ef46e3d978763be0397825840c67338922d93d292dc86ccb9a",
+    "TensorForge 2.0 - MVP Resources DataSet\\validation.csv": "6a98d3d394561924b5bfe194b0ad8990a55c779bdc9a173954dac8eec049e011",
+    "TensorForge 2.0 - MVP Resources DataSet\\validation.jsonl": "9ce23b7a7b7f29f36416340bc2f68a23fdc0b81760e5f3eeb178eb33f6a41aaf"
+  },
+  "policy": {
+    "urgency": {
+      "threshold": 0.4,
+      "sensitivity": [
+        {
+          "precision": 0.8181818181818182,
+          "recall": 1.0,
+          "f1": 0.9,
+          "pr_auc_average_precision": 0.9984567901234569,
+          "threshold": 0.05,
+          "positives": 72,
+          "count": 800
+        },
+        {
+          "precision": 0.8987341772151899,
+          "recall": 0.9861111111111112,
+          "f1": 0.9403973509933775,
+          "pr_auc_average_precision": 0.9984567901234569,
+          "threshold": 0.1,
+          "positives": 72,
+          "count": 800
+        },
+        {
+          "precision": 0.922077922077922,
+          "recall": 0.9861111111111112,
+          "f1": 0.9530201342281879,
+          "pr_auc_average_precision": 0.9984567901234569,
+          "threshold": 0.15000000000000002,
+          "positives": 72,
+          "count": 800
+        },
+        {
+          "precision": 0.9594594594594594,
+          "recall": 0.9861111111111112,
+          "f1": 0.9726027397260274,
+          "pr_auc_average_precision": 0.9984567901234569,
+          "threshold": 0.2,
+          "positives": 72,
+          "count": 800
+        },
+        {
+          "precision": 0.9726027397260274,
+          "recall": 0.9861111111111112,
+          "f1": 0.9793103448275862,
+          "pr_auc_average_precision": 0.9984567901234569,
+          "threshold": 0.25,
+          "positives": 72,
+          "count": 800
+        },
+        {
+          "precision": 0.9726027397260274,
+          "recall": 0.9861111111111112,
+          "f1": 0.9793103448275862,
+          "pr_auc_average_precision": 0.9984567901234569,
+          "threshold": 0.3,
+          "positives": 72,
+          "count": 800
+        },
+        {
+          "precision": 0.9861111111111112,
+          "recall": 0.9861111111111112,
+          "f1": 0.9861111111111112,
+          "pr_auc_average_precision": 0.9984567901234569,
+          "threshold": 0.35000000000000003,
+          "positives": 72,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9861111111111112,
+          "f1": 0.993006993006993,
+          "pr_auc_average_precision": 0.9984567901234569,
+          "threshold": 0.4,
+          "positives": 72,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9444444444444444,
+          "f1": 0.9714285714285714,
+          "pr_auc_average_precision": 0.9984567901234569,
+          "threshold": 0.45,
+          "positives": 72,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9444444444444444,
+          "f1": 0.9714285714285714,
+          "pr_auc_average_precision": 0.9984567901234569,
+          "threshold": 0.5,
+          "positives": 72,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9166666666666666,
+          "f1": 0.9565217391304348,
+          "pr_auc_average_precision": 0.9984567901234569,
+          "threshold": 0.55,
+          "positives": 72,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9166666666666666,
+          "f1": 0.9565217391304348,
+          "pr_auc_average_precision": 0.9984567901234569,
+          "threshold": 0.6000000000000001,
+          "positives": 72,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9166666666666666,
+          "f1": 0.9565217391304348,
+          "pr_auc_average_precision": 0.9984567901234569,
+          "threshold": 0.6500000000000001,
+          "positives": 72,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9166666666666666,
+          "f1": 0.9565217391304348,
+          "pr_auc_average_precision": 0.9984567901234569,
+          "threshold": 0.7000000000000001,
+          "positives": 72,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9166666666666666,
+          "f1": 0.9565217391304348,
+          "pr_auc_average_precision": 0.9984567901234569,
+          "threshold": 0.7500000000000001,
+          "positives": 72,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9027777777777778,
+          "f1": 0.948905109489051,
+          "pr_auc_average_precision": 0.9984567901234569,
+          "threshold": 0.8,
+          "positives": 72,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.875,
+          "f1": 0.9333333333333333,
+          "pr_auc_average_precision": 0.9984567901234569,
+          "threshold": 0.8500000000000001,
+          "positives": 72,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.875,
+          "f1": 0.9333333333333333,
+          "pr_auc_average_precision": 0.9984567901234569,
+          "threshold": 0.9000000000000001,
+          "positives": 72,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091,
+          "pr_auc_average_precision": 0.9984567901234569,
+          "threshold": 0.9500000000000001,
+          "positives": 72,
+          "count": 800
+        }
+      ],
+      "selection_split": "training calibration holdout, reused for threshold development; not unbiased evaluation"
+    },
+    "presence": {
+      "threshold": 0.2,
+      "sensitivity": [
+        {
+          "precision": 0.8260869565217391,
+          "recall": 1.0,
+          "f1": 0.9047619047619048,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.05,
+          "positives": 76,
+          "count": 800
+        },
+        {
+          "precision": 0.9382716049382716,
+          "recall": 1.0,
+          "f1": 0.9681528662420382,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.1,
+          "positives": 76,
+          "count": 800
+        },
+        {
+          "precision": 0.9620253164556962,
+          "recall": 1.0,
+          "f1": 0.9806451612903225,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.15000000000000002,
+          "positives": 76,
+          "count": 800
+        },
+        {
+          "precision": 0.987012987012987,
+          "recall": 1.0,
+          "f1": 0.9934640522875817,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.2,
+          "positives": 76,
+          "count": 800
+        },
+        {
+          "precision": 0.987012987012987,
+          "recall": 1.0,
+          "f1": 0.9934640522875817,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.25,
+          "positives": 76,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9868421052631579,
+          "f1": 0.9933774834437086,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.3,
+          "positives": 76,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9736842105263158,
+          "f1": 0.9866666666666667,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.35000000000000003,
+          "positives": 76,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9736842105263158,
+          "f1": 0.9866666666666667,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.4,
+          "positives": 76,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9736842105263158,
+          "f1": 0.9866666666666667,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.45,
+          "positives": 76,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9605263157894737,
+          "f1": 0.9798657718120806,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.5,
+          "positives": 76,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9473684210526315,
+          "f1": 0.972972972972973,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.55,
+          "positives": 76,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9473684210526315,
+          "f1": 0.972972972972973,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.6000000000000001,
+          "positives": 76,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9473684210526315,
+          "f1": 0.972972972972973,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.6500000000000001,
+          "positives": 76,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9473684210526315,
+          "f1": 0.972972972972973,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.7000000000000001,
+          "positives": 76,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9473684210526315,
+          "f1": 0.972972972972973,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.7500000000000001,
+          "positives": 76,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9342105263157895,
+          "f1": 0.9659863945578231,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.8,
+          "positives": 76,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9210526315789473,
+          "f1": 0.958904109589041,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.8500000000000001,
+          "positives": 76,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.9210526315789473,
+          "f1": 0.958904109589041,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.9000000000000001,
+          "positives": 76,
+          "count": 800
+        },
+        {
+          "precision": 1.0,
+          "recall": 0.8421052631578947,
+          "f1": 0.9142857142857143,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.9500000000000001,
+          "positives": 76,
+          "count": 800
+        }
+      ],
+      "selection_split": "training calibration holdout, reused for threshold development; not unbiased evaluation"
+    }
+  },
+  "features": [
+    "channel",
+    "subject",
+    "text"
+  ],
+  "packages": {
+    "scikit-learn": "1.9.1",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "joblib": "1.6.0",
+    "fastapi": "0.143.0",
+    "jsonschema": "4.26.0"
+  },
+  "training_design": "connected components of train-only char_wb cosine >=0.90 after NFC/number masking",
+  "configuration": {
+    "kind": "word",
+    "svm": false,
+    "C": 1.0,
+    "class_weight": null
+  },
+  "limitations": [
+    "Synthetic languages not reviewed by native speakers",
+    "Calibration holdout also used for binary threshold tuning",
+    "Final primary uses core training plus calibration; secondary uses all train positives",
+    "Fallback primary is E0; urgency/secondary reuse selected bundle. Fallback has no separate final validation measurement."
+  ]
+}

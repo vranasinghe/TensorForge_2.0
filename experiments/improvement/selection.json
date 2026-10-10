@@ -1,0 +1,37 @@
+{
+  "winner": {
+    "name": "mask_quotes_safety_weight",
+    "mask_references": true,
+    "resolved_quotes": true,
+    "C": 1.0,
+    "class_weight": {
+      "safety_conduct": 2.0,
+      "delivery_delay": 1.0,
+      "ride_trip_issue": 1.0,
+      "payment_refund": 1.0,
+      "lost_item": 1.0,
+      "app_technical": 1.0,
+      "food_quality": 1.0,
+      "account_promo": 1.0,
+      "general_inquiry": 1.0,
+      "spam_irrelevant": 1.0,
+      "order_missing_wrong": 1.0
+    },
+    "seed": 42,
+    "method": "5-fold train group CV, each outer fit has disjoint 20% inner calibration; primary final configuration reproduced",
+    "clean_accuracy": 0.99075,
+    "clean_macro_f1": 0.9887611270916105,
+    "reference_shift_and_quotes_accuracy": 0.99075,
+    "stress_macro_f1": 0.9887611270916105,
+    "seconds": 31.94755669985898,
+    "stress_language_accuracy": {
+      "en": 0.9785714285714285,
+      "mixed": 1.0,
+      "si": 1.0,
+      "singlish": 1.0,
+      "ta": 0.9983333333333333,
+      "tanglish": 0.94
+    }
+  },
+  "criterion": "train-only stress macro-F1; supplied validation not used for candidate ranking"
+}

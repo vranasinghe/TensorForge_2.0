@@ -1,0 +1,717 @@
+{
+  "accuracy": 0.58625,
+  "macro_f1": 0.6095691018349871,
+  "weighted_f1": 0.5927497884534563,
+  "per_class": {
+    "account_promo": {
+      "precision": 0.8307692307692308,
+      "recall": 0.75,
+      "f1-score": 0.7883211678832117,
+      "support": 72.0
+    },
+    "app_technical": {
+      "precision": 0.7837837837837838,
+      "recall": 0.453125,
+      "f1-score": 0.5742574257425742,
+      "support": 64.0
+    },
+    "delivery_delay": {
+      "precision": 0.6403508771929824,
+      "recall": 0.6083333333333333,
+      "f1-score": 0.6239316239316239,
+      "support": 120.0
+    },
+    "food_quality": {
+      "precision": 0.9375,
+      "recall": 0.26785714285714285,
+      "f1-score": 0.4166666666666667,
+      "support": 56.0
+    },
+    "general_inquiry": {
+      "precision": 0.4074074074074074,
+      "recall": 0.825,
+      "f1-score": 0.5454545454545454,
+      "support": 40.0
+    },
+    "lost_item": {
+      "precision": 0.3950617283950617,
+      "recall": 0.8,
+      "f1-score": 0.5289256198347108,
+      "support": 40.0
+    },
+    "order_missing_wrong": {
+      "precision": 0.32786885245901637,
+      "recall": 0.4166666666666667,
+      "f1-score": 0.3669724770642202,
+      "support": 96.0
+    },
+    "payment_refund": {
+      "precision": 0.5202702702702703,
+      "recall": 0.5347222222222222,
+      "f1-score": 0.5273972602739726,
+      "support": 144.0
+    },
+    "ride_trip_issue": {
+      "precision": 0.925,
+      "recall": 0.6607142857142857,
+      "f1-score": 0.7708333333333334,
+      "support": 112.0
+    },
+    "safety_conduct": {
+      "precision": 0.5625,
+      "recall": 0.5625,
+      "f1-score": 0.5625,
+      "support": 32.0
+    },
+    "spam_irrelevant": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 24.0
+    },
+    "accuracy": 0.58625,
+    "macro avg": {
+      "precision": 0.6664101954797957,
+      "recall": 0.625356240981241,
+      "f1-score": 0.6095691018349871,
+      "support": 800.0
+    },
+    "weighted avg": {
+      "precision": 0.6542659327847349,
+      "recall": 0.58625,
+      "f1-score": 0.5927497884534563,
+      "support": 800.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      54,
+      0,
+      2,
+      0,
+      6,
+      1,
+      1,
+      7,
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      29,
+      1,
+      0,
+      0,
+      0,
+      25,
+      6,
+      0,
+      1,
+      0
+    ],
+    [
+      5,
+      0,
+      73,
+      1,
+      2,
+      2,
+      21,
+      15,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      9,
+      15,
+      1,
+      1,
+      22,
+      6,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      33,
+      0,
+      0,
+      3,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      1,
+      32,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      9,
+      0,
+      4,
+      19,
+      40,
+      22,
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      5,
+      6,
+      0,
+      25,
+      19,
+      10,
+      77,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      6,
+      0,
+      9,
+      0,
+      2,
+      8,
+      74,
+      10,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      7,
+      0,
+      3,
+      3,
+      18,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      24
+    ]
+  ],
+  "classes": [
+    "account_promo",
+    "app_technical",
+    "delivery_delay",
+    "food_quality",
+    "general_inquiry",
+    "lost_item",
+    "order_missing_wrong",
+    "payment_refund",
+    "ride_trip_issue",
+    "safety_conduct",
+    "spam_irrelevant"
+  ],
+  "log_loss": 1.2546116493733914,
+  "brier_sum_over_classes": 0.5233655660256512,
+  "ece_10_equal_width_bins": 0.04609677544321219,
+  "reliability_bins": [
+    {
+      "low": 0.1,
+      "count": 7,
+      "confidence": 0.1866595994495925,
+      "accuracy": 0.2857142857142857
+    },
+    {
+      "low": 0.2,
+      "count": 89,
+      "confidence": 0.25663437380817616,
+      "accuracy": 0.2696629213483146
+    },
+    {
+      "low": 0.30000000000000004,
+      "count": 124,
+      "confidence": 0.3524283799339815,
+      "accuracy": 0.25
+    },
+    {
+      "low": 0.4,
+      "count": 105,
+      "confidence": 0.4508286849255774,
+      "accuracy": 0.3904761904761905
+    },
+    {
+      "low": 0.5,
+      "count": 93,
+      "confidence": 0.5509350142420549,
+      "accuracy": 0.5053763440860215
+    },
+    {
+      "low": 0.6000000000000001,
+      "count": 79,
+      "confidence": 0.6490112583074256,
+      "accuracy": 0.7088607594936709
+    },
+    {
+      "low": 0.7000000000000001,
+      "count": 62,
+      "confidence": 0.7553034616543788,
+      "accuracy": 0.7096774193548387
+    },
+    {
+      "low": 0.8,
+      "count": 100,
+      "confidence": 0.8499151307610441,
+      "accuracy": 0.89
+    },
+    {
+      "low": 0.9,
+      "count": 141,
+      "confidence": 0.9561418629364988,
+      "accuracy": 0.9574468085106383
+    }
+  ],
+  "selective_risk": [
+    {
+      "threshold": 0.0,
+      "coverage": 1.0,
+      "risk": 0.41374999999999995
+    },
+    {
+      "threshold": 0.05,
+      "coverage": 1.0,
+      "risk": 0.41374999999999995
+    },
+    {
+      "threshold": 0.1,
+      "coverage": 1.0,
+      "risk": 0.41374999999999995
+    },
+    {
+      "threshold": 0.15000000000000002,
+      "coverage": 1.0,
+      "risk": 0.41374999999999995
+    },
+    {
+      "threshold": 0.2,
+      "coverage": 0.99125,
+      "risk": 0.41109709962168983
+    },
+    {
+      "threshold": 0.25,
+      "coverage": 0.95,
+      "risk": 0.39210526315789473
+    },
+    {
+      "threshold": 0.30000000000000004,
+      "coverage": 0.88,
+      "risk": 0.37073863636363635
+    },
+    {
+      "threshold": 0.35000000000000003,
+      "coverage": 0.80875,
+      "risk": 0.3400309119010819
+    },
+    {
+      "threshold": 0.4,
+      "coverage": 0.725,
+      "risk": 0.2896551724137931
+    },
+    {
+      "threshold": 0.45,
+      "coverage": 0.66125,
+      "risk": 0.2533081285444234
+    },
+    {
+      "threshold": 0.5,
+      "coverage": 0.59375,
+      "risk": 0.21894736842105267
+    },
+    {
+      "threshold": 0.55,
+      "coverage": 0.53875,
+      "risk": 0.18561484918793503
+    },
+    {
+      "threshold": 0.6000000000000001,
+      "coverage": 0.4775,
+      "risk": 0.1518324607329843
+    },
+    {
+      "threshold": 0.65,
+      "coverage": 0.42375,
+      "risk": 0.13569321533923306
+    },
+    {
+      "threshold": 0.7000000000000001,
+      "coverage": 0.37875,
+      "risk": 0.11551155115511547
+    },
+    {
+      "threshold": 0.75,
+      "coverage": 0.34375,
+      "risk": 0.0945454545454546
+    },
+    {
+      "threshold": 0.8,
+      "coverage": 0.30125,
+      "risk": 0.0705394190871369
+    },
+    {
+      "threshold": 0.8500000000000001,
+      "coverage": 0.23875,
+      "risk": 0.05235602094240843
+    },
+    {
+      "threshold": 0.9,
+      "coverage": 0.17625,
+      "risk": 0.04255319148936165
+    },
+    {
+      "threshold": 0.9500000000000001,
+      "coverage": 0.1075,
+      "risk": 0.023255813953488413
+    }
+  ],
+  "split": "supplied validation, evaluated once after train-only model selection; synthetic overlap limitations in audit",
+  "urgency": {
+    "precision": 0.9142857142857143,
+    "recall": 0.8,
+    "f1": 0.8533333333333334,
+    "pr_auc_average_precision": 0.9034815414556094,
+    "threshold": 0.4,
+    "positives": 80,
+    "count": 800
+  },
+  "secondary_presence": {
+    "precision": 0.9152542372881356,
+    "recall": 0.675,
+    "f1": 0.7769784172661871,
+    "pr_auc_average_precision": 0.8915447150940747,
+    "threshold": 0.2,
+    "positives": 80,
+    "count": 800
+  },
+  "secondary_exact_accuracy": 0.9575,
+  "secondary_label_macro_f1_excluding_null": 0.6388939165409754,
+  "always_null_secondary_accuracy": 0.9,
+  "exact_triple_match": 0.55875,
+  "contract_pass_rate": 1.0,
+  "subgroups": {
+    "language": {
+      "en": {
+        "count": 280,
+        "accuracy": 0.5321428571428571,
+        "macro_f1": 0.5848600100594266,
+        "urgency": {
+          "precision": 0.782608695652174,
+          "recall": 0.6206896551724138,
+          "f1": 0.6923076923076923,
+          "pr_auc_average_precision": 0.7210023230477802,
+          "threshold": 0.4,
+          "positives": 29,
+          "count": 280
+        }
+      },
+      "mixed": {
+        "count": 20,
+        "accuracy": 0.6,
+        "macro_f1": 0.4264069264069264,
+        "urgency": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.4,
+          "positives": 3,
+          "count": 20
+        }
+      },
+      "si": {
+        "count": 160,
+        "accuracy": 0.34375,
+        "macro_f1": 0.4035911424905732,
+        "urgency": {
+          "precision": 1.0,
+          "recall": 0.9411764705882353,
+          "f1": 0.9696969696969697,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.4,
+          "positives": 17,
+          "count": 160
+        }
+      },
+      "singlish": {
+        "count": 200,
+        "accuracy": 0.86,
+        "macro_f1": 0.869199836983492,
+        "urgency": {
+          "precision": 1.0,
+          "recall": 0.8888888888888888,
+          "f1": 0.9411764705882353,
+          "pr_auc_average_precision": 0.9837301587301587,
+          "threshold": 0.4,
+          "positives": 18,
+          "count": 200
+        }
+      },
+      "ta": {
+        "count": 120,
+        "accuracy": 0.575,
+        "macro_f1": 0.5312526203273342,
+        "urgency": {
+          "precision": 0.9166666666666666,
+          "recall": 0.9166666666666666,
+          "f1": 0.9166666666666666,
+          "pr_auc_average_precision": 0.9935897435897435,
+          "threshold": 0.4,
+          "positives": 12,
+          "count": 120
+        }
+      },
+      "tanglish": {
+        "count": 20,
+        "accuracy": 0.6,
+        "macro_f1": 0.5545454545454546,
+        "urgency": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.4,
+          "positives": 1,
+          "count": 20
+        }
+      }
+    },
+    "channel": {
+      "call_transcript": {
+        "count": 200,
+        "accuracy": 0.565,
+        "macro_f1": 0.560376316831102,
+        "urgency": {
+          "precision": 1.0,
+          "recall": 0.7368421052631579,
+          "f1": 0.8484848484848485,
+          "pr_auc_average_precision": 0.9045338263010729,
+          "threshold": 0.4,
+          "positives": 19,
+          "count": 200
+        }
+      },
+      "chat": {
+        "count": 360,
+        "accuracy": 0.6138888888888889,
+        "macro_f1": 0.6073417727938041,
+        "urgency": {
+          "precision": 0.9142857142857143,
+          "recall": 0.9142857142857143,
+          "f1": 0.9142857142857143,
+          "pr_auc_average_precision": 0.9480009101558392,
+          "threshold": 0.4,
+          "positives": 35,
+          "count": 360
+        }
+      },
+      "email": {
+        "count": 240,
+        "accuracy": 0.5625,
+        "macro_f1": 0.6184428489306538,
+        "urgency": {
+          "precision": 0.8571428571428571,
+          "recall": 0.6923076923076923,
+          "f1": 0.7659574468085106,
+          "pr_auc_average_precision": 0.845785729985747,
+          "threshold": 0.4,
+          "positives": 26,
+          "count": 240
+        }
+      }
+    },
+    "category": {
+      "account_promo": {
+        "count": 72,
+        "accuracy": 0.75,
+        "macro_f1": 0.12244897959183673,
+        "urgency": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "pr_auc_average_precision": null,
+          "threshold": 0.4,
+          "positives": 0,
+          "count": 72
+        }
+      },
+      "app_technical": {
+        "count": 64,
+        "accuracy": 0.453125,
+        "macro_f1": 0.1039426523297491,
+        "urgency": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "pr_auc_average_precision": null,
+          "threshold": 0.4,
+          "positives": 0,
+          "count": 64
+        }
+      },
+      "delivery_delay": {
+        "count": 120,
+        "accuracy": 0.6083333333333333,
+        "macro_f1": 0.09455958549222798,
+        "urgency": {
+          "precision": 0.8235294117647058,
+          "recall": 1.0,
+          "f1": 0.9032258064516129,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.4,
+          "positives": 14,
+          "count": 120
+        }
+      },
+      "food_quality": {
+        "count": 56,
+        "accuracy": 0.26785714285714285,
+        "macro_f1": 0.0528169014084507,
+        "urgency": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.8888888888888888,
+          "pr_auc_average_precision": 0.9714285714285714,
+          "threshold": 0.4,
+          "positives": 10,
+          "count": 56
+        }
+      },
+      "general_inquiry": {
+        "count": 40,
+        "accuracy": 0.825,
+        "macro_f1": 0.22602739726027396,
+        "urgency": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "pr_auc_average_precision": null,
+          "threshold": 0.4,
+          "positives": 0,
+          "count": 40
+        }
+      },
+      "lost_item": {
+        "count": 40,
+        "accuracy": 0.8,
+        "macro_f1": 0.14814814814814814,
+        "urgency": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.4,
+          "positives": 4,
+          "count": 40
+        }
+      },
+      "order_missing_wrong": {
+        "count": 96,
+        "accuracy": 0.4166666666666667,
+        "macro_f1": 0.08403361344537816,
+        "urgency": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.4,
+          "positives": 4,
+          "count": 96
+        }
+      },
+      "payment_refund": {
+        "count": 144,
+        "accuracy": 0.5347222222222222,
+        "macro_f1": 0.09954751131221719,
+        "urgency": {
+          "precision": 0.8666666666666667,
+          "recall": 0.8125,
+          "f1": 0.8387096774193549,
+          "pr_auc_average_precision": 0.8752283617849655,
+          "threshold": 0.4,
+          "positives": 16,
+          "count": 144
+        }
+      },
+      "ride_trip_issue": {
+        "count": 112,
+        "accuracy": 0.6607142857142857,
+        "macro_f1": 0.09946236559139784,
+        "urgency": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "pr_auc_average_precision": 1.0,
+          "threshold": 0.4,
+          "positives": 8,
+          "count": 112
+        }
+      },
+      "safety_conduct": {
+        "count": 32,
+        "accuracy": 0.5625,
+        "macro_f1": 0.144,
+        "urgency": {
+          "precision": 0.9333333333333333,
+          "recall": 0.5833333333333334,
+          "f1": 0.717948717948718,
+          "pr_auc_average_precision": 0.939510958581563,
+          "threshold": 0.4,
+          "positives": 24,
+          "count": 32
+        }
+      },
+      "spam_irrelevant": {
+        "count": 24,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "urgency": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "pr_auc_average_precision": null,
+          "threshold": 0.4,
+          "positives": 0,
+          "count": 24
+        }
+      }
+    }
+  }
+}

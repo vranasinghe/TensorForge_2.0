@@ -1,0 +1,14 @@
+{
+  "tf": {
+    "category_cv_accuracy": 0.9955,
+    "category_cv_macro_f1": 0.994355607642264,
+    "urgency_cv_accuracy": 0.9975,
+    "urgency_cv_f1": 0.9873417721518988
+  },
+  "kdu": {
+    "category_cv_accuracy": 0.99125,
+    "category_cv_macro_f1": 0.990023373603404,
+    "urgency_cv_accuracy": 0.99475,
+    "urgency_cv_f1": 0.9731113956466069
+  }
+}

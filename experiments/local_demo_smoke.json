@@ -1,0 +1,8 @@
+{
+  "base": "http://127.0.0.1:8301",
+  "checks": [
+    "private page, no evaluation/backend key in HTML, real health proxy",
+    "real ticket classification through server-side credential proxy",
+    "quoted multiline Unicode CSV import, actual async job, ordered results and DELETE"
+  ]
+}

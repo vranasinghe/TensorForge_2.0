@@ -1,0 +1,2480 @@
+[
+  {
+    "experiment": "E0",
+    "kind": "word",
+    "svm": false,
+    "C": 1.0,
+    "class_weight": null,
+    "split": "5-fold stratified group CV on train core; calibration holdout excluded",
+    "seconds": 5.354203500086442,
+    "metrics": {
+      "accuracy": 0.900625,
+      "macro_f1": 0.8766027294025531,
+      "weighted_f1": 0.8953960260740313,
+      "per_class": {
+        "account_promo": {
+          "precision": 0.9747292418772563,
+          "recall": 0.9375,
+          "f1-score": 0.9557522123893806,
+          "support": 288.0
+        },
+        "app_technical": {
+          "precision": 0.9830508474576272,
+          "recall": 0.90625,
+          "f1-score": 0.943089430894309,
+          "support": 256.0
+        },
+        "delivery_delay": {
+          "precision": 0.8706099815157117,
+          "recall": 0.98125,
+          "f1-score": 0.9226248775710089,
+          "support": 480.0
+        },
+        "food_quality": {
+          "precision": 0.9883720930232558,
+          "recall": 0.7589285714285714,
+          "f1-score": 0.8585858585858586,
+          "support": 224.0
+        },
+        "general_inquiry": {
+          "precision": 1.0,
+          "recall": 0.525,
+          "f1-score": 0.6885245901639344,
+          "support": 160.0
+        },
+        "lost_item": {
+          "precision": 1.0,
+          "recall": 0.63125,
+          "f1-score": 0.7739463601532567,
+          "support": 160.0
+        },
+        "order_missing_wrong": {
+          "precision": 0.9435897435897436,
+          "recall": 0.9583333333333334,
+          "f1-score": 0.9509043927648578,
+          "support": 384.0
+        },
+        "payment_refund": {
+          "precision": 0.8171428571428572,
+          "recall": 0.9930555555555556,
+          "f1-score": 0.896551724137931,
+          "support": 576.0
+        },
+        "ride_trip_issue": {
+          "precision": 0.8387096774193549,
+          "recall": 0.9866071428571429,
+          "f1-score": 0.9066666666666666,
+          "support": 448.0
+        },
+        "safety_conduct": {
+          "precision": 1.0,
+          "recall": 0.6015625,
+          "f1-score": 0.751219512195122,
+          "support": 128.0
+        },
+        "spam_irrelevant": {
+          "precision": 1.0,
+          "recall": 0.9895833333333334,
+          "f1-score": 0.9947643979057592,
+          "support": 96.0
+        },
+        "accuracy": 0.900625,
+        "macro avg": {
+          "precision": 0.9469276765478006,
+          "recall": 0.8426654942279943,
+          "f1-score": 0.8766027294025531,
+          "support": 3200.0
+        },
+        "weighted avg": {
+          "precision": 0.9138830816597411,
+          "recall": 0.900625,
+          "f1-score": 0.8953960260740313,
+          "support": 3200.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          270,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1,
+          13,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          232,
+          7,
+          0,
+          0,
+          0,
+          1,
+          13,
+          3,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          471,
+          0,
+          0,
+          0,
+          1,
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          17,
+          170,
+          0,
+          0,
+          3,
+          25,
+          7,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          21,
+          2,
+          84,
+          0,
+          7,
+          19,
+          24,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          8,
+          0,
+          0,
+          101,
+          7,
+          27,
+          15,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          4,
+          0,
+          0,
+          0,
+          368,
+          9,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          572,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          442,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          1,
+          9,
+          31,
+          77,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          95
+        ]
+      ],
+      "classes": [
+        "account_promo",
+        "app_technical",
+        "delivery_delay",
+        "food_quality",
+        "general_inquiry",
+        "lost_item",
+        "order_missing_wrong",
+        "payment_refund",
+        "ride_trip_issue",
+        "safety_conduct",
+        "spam_irrelevant"
+      ],
+      "log_loss": 0.9770966593954301,
+      "brier_sum_over_classes": 0.4078997169946911,
+      "ece_10_equal_width_bins": 0.465305929583722,
+      "reliability_bins": [
+        {
+          "low": 0.1,
+          "count": 358,
+          "confidence": 0.1719108272207568,
+          "accuracy": 0.36033519553072624
+        },
+        {
+          "low": 0.2,
+          "count": 491,
+          "confidence": 0.24834930823444973,
+          "accuracy": 0.8391038696537678
+        },
+        {
+          "low": 0.30000000000000004,
+          "count": 565,
+          "confidence": 0.35068291901823445,
+          "accuracy": 0.984070796460177
+        },
+        {
+          "low": 0.4,
+          "count": 598,
+          "confidence": 0.4498502713077589,
+          "accuracy": 0.9983277591973244
+        },
+        {
+          "low": 0.5,
+          "count": 551,
+          "confidence": 0.54798433774928,
+          "accuracy": 1.0
+        },
+        {
+          "low": 0.6000000000000001,
+          "count": 396,
+          "confidence": 0.6463285616668196,
+          "accuracy": 1.0
+        },
+        {
+          "low": 0.7000000000000001,
+          "count": 190,
+          "confidence": 0.7443083576041576,
+          "accuracy": 1.0
+        },
+        {
+          "low": 0.8,
+          "count": 47,
+          "confidence": 0.8372548279964341,
+          "accuracy": 1.0
+        },
+        {
+          "low": 0.9,
+          "count": 4,
+          "confidence": 0.9340204940163603,
+          "accuracy": 1.0
+        }
+      ],
+      "selective_risk": [
+        {
+          "threshold": 0.0,
+          "coverage": 1.0,
+          "risk": 0.09937499999999999
+        },
+        {
+          "threshold": 0.05,
+          "coverage": 1.0,
+          "risk": 0.09937499999999999
+        },
+        {
+          "threshold": 0.1,
+          "coverage": 1.0,
+          "risk": 0.09937499999999999
+        },
+        {
+          "threshold": 0.15000000000000002,
+          "coverage": 0.986875,
+          "risk": 0.08866371120962635
+        },
+        {
+          "threshold": 0.2,
+          "coverage": 0.888125,
+          "risk": 0.03131597466572833
+        },
+        {
+          "threshold": 0.25,
+          "coverage": 0.80875,
+          "risk": 0.011591962905718733
+        },
+        {
+          "threshold": 0.30000000000000004,
+          "coverage": 0.7346875,
+          "risk": 0.004253509145044632
+        },
+        {
+          "threshold": 0.35000000000000003,
+          "coverage": 0.6459375,
+          "risk": 0.0014513788098693414
+        },
+        {
+          "threshold": 0.4,
+          "coverage": 0.558125,
+          "risk": 0.0005599104143336753
+        },
+        {
+          "threshold": 0.45,
+          "coverage": 0.463125,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.37125,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.55,
+          "coverage": 0.27625,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.6000000000000001,
+          "coverage": 0.1990625,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.65,
+          "coverage": 0.130625,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.7000000000000001,
+          "coverage": 0.0753125,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.75,
+          "coverage": 0.040625,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.0159375,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.8500000000000001,
+          "coverage": 0.0065625,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.00125,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.9500000000000001,
+          "coverage": 0.000625,
+          "risk": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "experiment": "E1",
+    "kind": "char",
+    "svm": false,
+    "C": 1.0,
+    "class_weight": null,
+    "split": "5-fold stratified group CV on train core; calibration holdout excluded",
+    "seconds": 24.771829499863088,
+    "metrics": {
+      "accuracy": 0.8809375,
+      "macro_f1": 0.8511544393318996,
+      "weighted_f1": 0.8735105893018426,
+      "per_class": {
+        "account_promo": {
+          "precision": 0.9680851063829787,
+          "recall": 0.9479166666666666,
+          "f1-score": 0.9578947368421052,
+          "support": 288.0
+        },
+        "app_technical": {
+          "precision": 0.9866666666666667,
+          "recall": 0.8671875,
+          "f1-score": 0.9230769230769231,
+          "support": 256.0
+        },
+        "delivery_delay": {
+          "precision": 0.8460144927536232,
+          "recall": 0.9729166666666667,
+          "f1-score": 0.9050387596899225,
+          "support": 480.0
+        },
+        "food_quality": {
+          "precision": 0.9873417721518988,
+          "recall": 0.6964285714285714,
+          "f1-score": 0.8167539267015707,
+          "support": 224.0
+        },
+        "general_inquiry": {
+          "precision": 1.0,
+          "recall": 0.45625,
+          "f1-score": 0.6266094420600858,
+          "support": 160.0
+        },
+        "lost_item": {
+          "precision": 1.0,
+          "recall": 0.6375,
+          "f1-score": 0.7786259541984732,
+          "support": 160.0
+        },
+        "order_missing_wrong": {
+          "precision": 0.9097938144329897,
+          "recall": 0.9192708333333334,
+          "f1-score": 0.9145077720207254,
+          "support": 384.0
+        },
+        "payment_refund": {
+          "precision": 0.8082386363636364,
+          "recall": 0.9878472222222222,
+          "f1-score": 0.8890625,
+          "support": 576.0
+        },
+        "ride_trip_issue": {
+          "precision": 0.7985611510791367,
+          "recall": 0.9910714285714286,
+          "f1-score": 0.8844621513944223,
+          "support": 448.0
+        },
+        "safety_conduct": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 128.0
+        },
+        "spam_irrelevant": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 96.0
+        },
+        "accuracy": 0.8809375,
+        "macro avg": {
+          "precision": 0.9367910581664481,
+          "recall": 0.8160353535353534,
+          "f1-score": 0.8511544393318996,
+          "support": 3200.0
+        },
+        "weighted avg": {
+          "precision": 0.8985338642999703,
+          "recall": 0.8809375,
+          "f1-score": 0.8735105893018426,
+          "support": 3200.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          273,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1,
+          9,
+          3,
+          0,
+          0
+        ],
+        [
+          1,
+          222,
+          6,
+          0,
+          0,
+          0,
+          6,
+          16,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          467,
+          1,
+          0,
+          0,
+          1,
+          9,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          24,
+          156,
+          0,
+          0,
+          10,
+          28,
+          4,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          24,
+          1,
+          73,
+          0,
+          7,
+          22,
+          30,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          4,
+          0,
+          0,
+          102,
+          7,
+          21,
+          24,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          14,
+          0,
+          0,
+          0,
+          353,
+          16,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          4,
+          0,
+          0,
+          0,
+          1,
+          569,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          444,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          7,
+          0,
+          0,
+          0,
+          2,
+          11,
+          43,
+          64,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          96
+        ]
+      ],
+      "classes": [
+        "account_promo",
+        "app_technical",
+        "delivery_delay",
+        "food_quality",
+        "general_inquiry",
+        "lost_item",
+        "order_missing_wrong",
+        "payment_refund",
+        "ride_trip_issue",
+        "safety_conduct",
+        "spam_irrelevant"
+      ],
+      "log_loss": 1.01258295406184,
+      "brier_sum_over_classes": 0.4271631767129107,
+      "ece_10_equal_width_bins": 0.4569397020602328,
+      "reliability_bins": [
+        {
+          "low": 0.1,
+          "count": 328,
+          "confidence": 0.174538632766787,
+          "accuracy": 0.3384146341463415
+        },
+        {
+          "low": 0.2,
+          "count": 614,
+          "confidence": 0.2490391692366505,
+          "accuracy": 0.7654723127035831
+        },
+        {
+          "low": 0.30000000000000004,
+          "count": 601,
+          "confidence": 0.35118255237185175,
+          "accuracy": 0.9767054908485857
+        },
+        {
+          "low": 0.4,
+          "count": 574,
+          "confidence": 0.45066922978719326,
+          "accuracy": 0.9895470383275261
+        },
+        {
+          "low": 0.5,
+          "count": 531,
+          "confidence": 0.5482603697279698,
+          "accuracy": 1.0
+        },
+        {
+          "low": 0.6000000000000001,
+          "count": 313,
+          "confidence": 0.6458004105279339,
+          "accuracy": 1.0
+        },
+        {
+          "low": 0.7000000000000001,
+          "count": 178,
+          "confidence": 0.7415828401285124,
+          "accuracy": 1.0
+        },
+        {
+          "low": 0.8,
+          "count": 54,
+          "confidence": 0.8376617887205365,
+          "accuracy": 1.0
+        },
+        {
+          "low": 0.9,
+          "count": 7,
+          "confidence": 0.9131590172192015,
+          "accuracy": 1.0
+        }
+      ],
+      "selective_risk": [
+        {
+          "threshold": 0.0,
+          "coverage": 1.0,
+          "risk": 0.11906249999999996
+        },
+        {
+          "threshold": 0.05,
+          "coverage": 1.0,
+          "risk": 0.11906249999999996
+        },
+        {
+          "threshold": 0.1,
+          "coverage": 1.0,
+          "risk": 0.11906249999999996
+        },
+        {
+          "threshold": 0.15000000000000002,
+          "coverage": 0.9909375,
+          "risk": 0.11289813938820559
+        },
+        {
+          "threshold": 0.2,
+          "coverage": 0.8975,
+          "risk": 0.057103064066852394
+        },
+        {
+          "threshold": 0.25,
+          "coverage": 0.800625,
+          "risk": 0.01990632318501173
+        },
+        {
+          "threshold": 0.30000000000000004,
+          "coverage": 0.705625,
+          "risk": 0.008857395925597866
+        },
+        {
+          "threshold": 0.35000000000000003,
+          "coverage": 0.61375,
+          "risk": 0.0045824847250509615
+        },
+        {
+          "threshold": 0.4,
+          "coverage": 0.5178125,
+          "risk": 0.0036210018105009567
+        },
+        {
+          "threshold": 0.45,
+          "coverage": 0.428125,
+          "risk": 0.0021897810218978186
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.3384375,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.55,
+          "coverage": 0.2496875,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.6000000000000001,
+          "coverage": 0.1725,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.65,
+          "coverage": 0.11625,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.7000000000000001,
+          "coverage": 0.0746875,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.75,
+          "coverage": 0.0403125,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.0190625,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.8500000000000001,
+          "coverage": 0.0078125,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.0021875,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.9500000000000001,
+          "coverage": 0.0,
+          "risk": null
+        }
+      ]
+    }
+  },
+  {
+    "experiment": "E2",
+    "kind": "combined",
+    "svm": false,
+    "C": 1.0,
+    "class_weight": null,
+    "split": "5-fold stratified group CV on train core; calibration holdout excluded",
+    "seconds": 28.880105799995363,
+    "metrics": {
+      "accuracy": 0.943125,
+      "macro_f1": 0.9289102013258783,
+      "weighted_f1": 0.941096565841116,
+      "per_class": {
+        "account_promo": {
+          "precision": 0.979381443298969,
+          "recall": 0.9895833333333334,
+          "f1-score": 0.9844559585492227,
+          "support": 288.0
+        },
+        "app_technical": {
+          "precision": 0.9877049180327869,
+          "recall": 0.94140625,
+          "f1-score": 0.964,
+          "support": 256.0
+        },
+        "delivery_delay": {
+          "precision": 0.9259259259259259,
+          "recall": 0.9895833333333334,
+          "f1-score": 0.9566968781470292,
+          "support": 480.0
+        },
+        "food_quality": {
+          "precision": 0.9852216748768473,
+          "recall": 0.8928571428571429,
+          "f1-score": 0.936768149882904,
+          "support": 224.0
+        },
+        "general_inquiry": {
+          "precision": 0.9912280701754386,
+          "recall": 0.70625,
+          "f1-score": 0.8248175182481752,
+          "support": 160.0
+        },
+        "lost_item": {
+          "precision": 1.0,
+          "recall": 0.7875,
+          "f1-score": 0.8811188811188811,
+          "support": 160.0
+        },
+        "order_missing_wrong": {
+          "precision": 0.9565217391304348,
+          "recall": 0.9739583333333334,
+          "f1-score": 0.9651612903225807,
+          "support": 384.0
+        },
+        "payment_refund": {
+          "precision": 0.9166666666666666,
+          "recall": 0.9930555555555556,
+          "f1-score": 0.9533333333333334,
+          "support": 576.0
+        },
+        "ride_trip_issue": {
+          "precision": 0.8799212598425197,
+          "recall": 0.9977678571428571,
+          "f1-score": 0.9351464435146444,
+          "support": 448.0
+        },
+        "safety_conduct": {
+          "precision": 0.9888888888888889,
+          "recall": 0.6953125,
+          "f1-score": 0.8165137614678899,
+          "support": 128.0
+        },
+        "spam_irrelevant": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 96.0
+        },
+        "accuracy": 0.943125,
+        "macro avg": {
+          "precision": 0.9646782351671344,
+          "recall": 0.9061158459595959,
+          "f1-score": 0.9289102013258783,
+          "support": 3200.0
+        },
+        "weighted avg": {
+          "precision": 0.947103673607731,
+          "recall": 0.943125,
+          "f1-score": 0.941096565841116,
+          "support": 3200.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          285,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          241,
+          3,
+          0,
+          0,
+          0,
+          3,
+          6,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          475,
+          1,
+          0,
+          0,
+          1,
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          9,
+          200,
+          0,
+          0,
+          3,
+          8,
+          3,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          11,
+          2,
+          113,
+          0,
+          4,
+          10,
+          16,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          3,
+          0,
+          0,
+          126,
+          4,
+          13,
+          12,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          4,
+          0,
+          0,
+          0,
+          374,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          2,
+          572,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          447,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          1,
+          0,
+          0,
+          7,
+          25,
+          89,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          96
+        ]
+      ],
+      "classes": [
+        "account_promo",
+        "app_technical",
+        "delivery_delay",
+        "food_quality",
+        "general_inquiry",
+        "lost_item",
+        "order_missing_wrong",
+        "payment_refund",
+        "ride_trip_issue",
+        "safety_conduct",
+        "spam_irrelevant"
+      ],
+      "log_loss": 0.7035640037521084,
+      "brier_sum_over_classes": 0.27941962942713916,
+      "ece_10_equal_width_bins": 0.3887949451003075,
+      "reliability_bins": [
+        {
+          "low": 0.1,
+          "count": 151,
+          "confidence": 0.1721078701475957,
+          "accuracy": 0.4105960264900662
+        },
+        {
+          "low": 0.2,
+          "count": 315,
+          "confidence": 0.2520317088994516,
+          "accuracy": 0.780952380952381
+        },
+        {
+          "low": 0.30000000000000004,
+          "count": 317,
+          "confidence": 0.35466447985210037,
+          "accuracy": 0.9305993690851735
+        },
+        {
+          "low": 0.4,
+          "count": 419,
+          "confidence": 0.44894190631724495,
+          "accuracy": 0.9976133651551312
+        },
+        {
+          "low": 0.5,
+          "count": 536,
+          "confidence": 0.549117892476963,
+          "accuracy": 0.9981343283582089
+        },
+        {
+          "low": 0.6000000000000001,
+          "count": 593,
+          "confidence": 0.6510192964894733,
+          "accuracy": 1.0
+        },
+        {
+          "low": 0.7000000000000001,
+          "count": 519,
+          "confidence": 0.747820389901674,
+          "accuracy": 1.0
+        },
+        {
+          "low": 0.8,
+          "count": 296,
+          "confidence": 0.842647549182724,
+          "accuracy": 1.0
+        },
+        {
+          "low": 0.9,
+          "count": 54,
+          "confidence": 0.9262687040813982,
+          "accuracy": 1.0
+        }
+      ],
+      "selective_risk": [
+        {
+          "threshold": 0.0,
+          "coverage": 1.0,
+          "risk": 0.05687500000000001
+        },
+        {
+          "threshold": 0.05,
+          "coverage": 1.0,
+          "risk": 0.05687500000000001
+        },
+        {
+          "threshold": 0.1,
+          "coverage": 1.0,
+          "risk": 0.05687500000000001
+        },
+        {
+          "threshold": 0.15000000000000002,
+          "coverage": 0.9959375,
+          "risk": 0.05428302478820202
+        },
+        {
+          "threshold": 0.2,
+          "coverage": 0.9528125,
+          "risk": 0.030501803870121358
+        },
+        {
+          "threshold": 0.25,
+          "coverage": 0.90625,
+          "risk": 0.01586206896551723
+        },
+        {
+          "threshold": 0.30000000000000004,
+          "coverage": 0.854375,
+          "risk": 0.008778346744696464
+        },
+        {
+          "threshold": 0.35000000000000003,
+          "coverage": 0.8121875,
+          "risk": 0.0053866871873797795
+        },
+        {
+          "threshold": 0.4,
+          "coverage": 0.7553125,
+          "risk": 0.0008274720728175256
+        },
+        {
+          "threshold": 0.45,
+          "coverage": 0.685625,
+          "risk": 0.0009115770282588365
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.624375,
+          "risk": 0.0005005005005005447
+        },
+        {
+          "threshold": 0.55,
+          "coverage": 0.5403125,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.6000000000000001,
+          "coverage": 0.456875,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.65,
+          "coverage": 0.3675,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.7000000000000001,
+          "coverage": 0.2715625,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.75,
+          "coverage": 0.18625,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.109375,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.8500000000000001,
+          "coverage": 0.053125,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.016875,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.9500000000000001,
+          "coverage": 0.0021875,
+          "risk": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "experiment": "E3",
+    "kind": "combined",
+    "svm": true,
+    "C": 1.0,
+    "class_weight": null,
+    "split": "5-fold stratified group CV on train core; calibration holdout excluded",
+    "seconds": 38.88417649990879,
+    "metrics": {
+      "accuracy": 0.98375,
+      "macro_f1": 0.9796166906320533,
+      "weighted_f1": 0.9836729613568618,
+      "per_class": {
+        "account_promo": {
+          "precision": 0.9828178694158075,
+          "recall": 0.9930555555555556,
+          "f1-score": 0.9879101899827288,
+          "support": 288.0
+        },
+        "app_technical": {
+          "precision": 0.99609375,
+          "recall": 0.99609375,
+          "f1-score": 0.99609375,
+          "support": 256.0
+        },
+        "delivery_delay": {
+          "precision": 0.9896265560165975,
+          "recall": 0.99375,
+          "f1-score": 0.9916839916839917,
+          "support": 480.0
+        },
+        "food_quality": {
+          "precision": 0.9775784753363229,
+          "recall": 0.9732142857142857,
+          "f1-score": 0.9753914988814317,
+          "support": 224.0
+        },
+        "general_inquiry": {
+          "precision": 0.9668874172185431,
+          "recall": 0.9125,
+          "f1-score": 0.9389067524115756,
+          "support": 160.0
+        },
+        "lost_item": {
+          "precision": 0.9935483870967742,
+          "recall": 0.9625,
+          "f1-score": 0.9777777777777777,
+          "support": 160.0
+        },
+        "order_missing_wrong": {
+          "precision": 0.9768637532133676,
+          "recall": 0.9895833333333334,
+          "f1-score": 0.9831824062095731,
+          "support": 384.0
+        },
+        "payment_refund": {
+          "precision": 0.9930313588850174,
+          "recall": 0.9895833333333334,
+          "f1-score": 0.991304347826087,
+          "support": 576.0
+        },
+        "ride_trip_issue": {
+          "precision": 0.9758771929824561,
+          "recall": 0.9933035714285714,
+          "f1-score": 0.9845132743362832,
+          "support": 448.0
+        },
+        "safety_conduct": {
+          "precision": 0.952755905511811,
+          "recall": 0.9453125,
+          "f1-score": 0.9490196078431372,
+          "support": 128.0
+        },
+        "spam_irrelevant": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 96.0
+        },
+        "accuracy": 0.98375,
+        "macro avg": {
+          "precision": 0.9822800605160634,
+          "recall": 0.9771723935786436,
+          "f1-score": 0.9796166906320533,
+          "support": 3200.0
+        },
+        "weighted avg": {
+          "precision": 0.9837397133621443,
+          "recall": 0.98375,
+          "f1-score": 0.9836729613568618,
+          "support": 3200.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          286,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          255,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          477,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          218,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          146,
+          0,
+          3,
+          1,
+          5,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          2,
+          154,
+          2,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          380,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          570,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          445,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          4,
+          121,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          96
+        ]
+      ],
+      "classes": [
+        "account_promo",
+        "app_technical",
+        "delivery_delay",
+        "food_quality",
+        "general_inquiry",
+        "lost_item",
+        "order_missing_wrong",
+        "payment_refund",
+        "ride_trip_issue",
+        "safety_conduct",
+        "spam_irrelevant"
+      ],
+      "log_loss": 0.10991975915548138,
+      "brier_sum_over_classes": 0.03503844038130064,
+      "ece_10_equal_width_bins": 0.0616138007799109,
+      "reliability_bins": [
+        {
+          "low": 0.2,
+          "count": 10,
+          "confidence": 0.24843797882438795,
+          "accuracy": 0.2
+        },
+        {
+          "low": 0.30000000000000004,
+          "count": 16,
+          "confidence": 0.3593176321956274,
+          "accuracy": 0.5625
+        },
+        {
+          "low": 0.4,
+          "count": 26,
+          "confidence": 0.44794545501385336,
+          "accuracy": 0.7692307692307693
+        },
+        {
+          "low": 0.5,
+          "count": 56,
+          "confidence": 0.5530023840921837,
+          "accuracy": 0.7678571428571429
+        },
+        {
+          "low": 0.6000000000000001,
+          "count": 85,
+          "confidence": 0.6539054586021784,
+          "accuracy": 0.8941176470588236
+        },
+        {
+          "low": 0.7000000000000001,
+          "count": 102,
+          "confidence": 0.7536761234262048,
+          "accuracy": 0.9509803921568627
+        },
+        {
+          "low": 0.8,
+          "count": 226,
+          "confidence": 0.861571568578245,
+          "accuracy": 0.9823008849557522
+        },
+        {
+          "low": 0.9,
+          "count": 2679,
+          "confidence": 0.960725762138311,
+          "accuracy": 1.0
+        }
+      ],
+      "selective_risk": [
+        {
+          "threshold": 0.0,
+          "coverage": 1.0,
+          "risk": 0.016249999999999987
+        },
+        {
+          "threshold": 0.05,
+          "coverage": 1.0,
+          "risk": 0.016249999999999987
+        },
+        {
+          "threshold": 0.1,
+          "coverage": 1.0,
+          "risk": 0.016249999999999987
+        },
+        {
+          "threshold": 0.15000000000000002,
+          "coverage": 1.0,
+          "risk": 0.016249999999999987
+        },
+        {
+          "threshold": 0.2,
+          "coverage": 1.0,
+          "risk": 0.016249999999999987
+        },
+        {
+          "threshold": 0.25,
+          "coverage": 0.99875,
+          "risk": 0.015018773466833557
+        },
+        {
+          "threshold": 0.30000000000000004,
+          "coverage": 0.996875,
+          "risk": 0.01379310344827589
+        },
+        {
+          "threshold": 0.35000000000000003,
+          "coverage": 0.9946875,
+          "risk": 0.01256676091737352
+        },
+        {
+          "threshold": 0.4,
+          "coverage": 0.991875,
+          "risk": 0.011657214870825494
+        },
+        {
+          "threshold": 0.45,
+          "coverage": 0.9871875,
+          "risk": 0.011079455523899995
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.98375,
+          "risk": 0.009847522236340556
+        },
+        {
+          "threshold": 0.55,
+          "coverage": 0.9753125,
+          "risk": 0.007049022749118894
+        },
+        {
+          "threshold": 0.6000000000000001,
+          "coverage": 0.96625,
+          "risk": 0.005821474773609281
+        },
+        {
+          "threshold": 0.65,
+          "coverage": 0.954375,
+          "risk": 0.003929273084479323
+        },
+        {
+          "threshold": 0.7000000000000001,
+          "coverage": 0.9396875,
+          "risk": 0.002993016295310902
+        },
+        {
+          "threshold": 0.75,
+          "coverage": 0.9253125,
+          "risk": 0.0020263424518743856
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.9078125,
+          "risk": 0.001376936316695332
+        },
+        {
+          "threshold": 0.8500000000000001,
+          "coverage": 0.8871875,
+          "risk": 0.0007044734061288915
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.8371875,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.9500000000000001,
+          "coverage": 0.6278125,
+          "risk": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "experiment": "E4_C3",
+    "kind": "combined",
+    "svm": false,
+    "C": 3.0,
+    "class_weight": null,
+    "split": "5-fold stratified group CV on train core; calibration holdout excluded",
+    "seconds": 17.064716399880126,
+    "metrics": {
+      "accuracy": 0.968125,
+      "macro_f1": 0.9596274874061745,
+      "weighted_f1": 0.967509874245101,
+      "per_class": {
+        "account_promo": {
+          "precision": 0.9794520547945206,
+          "recall": 0.9930555555555556,
+          "f1-score": 0.9862068965517241,
+          "support": 288.0
+        },
+        "app_technical": {
+          "precision": 0.9920318725099602,
+          "recall": 0.97265625,
+          "f1-score": 0.9822485207100592,
+          "support": 256.0
+        },
+        "delivery_delay": {
+          "precision": 0.9636363636363636,
+          "recall": 0.99375,
+          "f1-score": 0.9784615384615385,
+          "support": 480.0
+        },
+        "food_quality": {
+          "precision": 0.9727272727272728,
+          "recall": 0.9553571428571429,
+          "f1-score": 0.963963963963964,
+          "support": 224.0
+        },
+        "general_inquiry": {
+          "precision": 0.9785714285714285,
+          "recall": 0.85625,
+          "f1-score": 0.9133333333333333,
+          "support": 160.0
+        },
+        "lost_item": {
+          "precision": 0.993006993006993,
+          "recall": 0.8875,
+          "f1-score": 0.9372937293729373,
+          "support": 160.0
+        },
+        "order_missing_wrong": {
+          "precision": 0.9643765903307888,
+          "recall": 0.9869791666666666,
+          "f1-score": 0.9755469755469756,
+          "support": 384.0
+        },
+        "payment_refund": {
+          "precision": 0.9726962457337884,
+          "recall": 0.9895833333333334,
+          "f1-score": 0.9810671256454389,
+          "support": 576.0
+        },
+        "ride_trip_issue": {
+          "precision": 0.9311064718162839,
+          "recall": 0.9955357142857143,
+          "f1-score": 0.9622437971952535,
+          "support": 448.0
+        },
+        "safety_conduct": {
+          "precision": 0.9714285714285714,
+          "recall": 0.796875,
+          "f1-score": 0.8755364806866953,
+          "support": 128.0
+        },
+        "spam_irrelevant": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 96.0
+        },
+        "accuracy": 0.968125,
+        "macro avg": {
+          "precision": 0.9744576240505428,
+          "recall": 0.9479583784271284,
+          "f1-score": 0.9596274874061745,
+          "support": 3200.0
+        },
+        "weighted avg": {
+          "precision": 0.9687510834307876,
+          "recall": 0.968125,
+          "f1-score": 0.967509874245101,
+          "support": 3200.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          286,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          249,
+          1,
+          0,
+          1,
+          0,
+          1,
+          2,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          477,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          214,
+          1,
+          1,
+          3,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          6,
+          2,
+          137,
+          0,
+          5,
+          3,
+          5,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          2,
+          0,
+          142,
+          2,
+          4,
+          6,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          379,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0,
+          0,
+          0,
+          2,
+          570,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          446,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          1,
+          0,
+          0,
+          3,
+          18,
+          102,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          96
+        ]
+      ],
+      "classes": [
+        "account_promo",
+        "app_technical",
+        "delivery_delay",
+        "food_quality",
+        "general_inquiry",
+        "lost_item",
+        "order_missing_wrong",
+        "payment_refund",
+        "ride_trip_issue",
+        "safety_conduct",
+        "spam_irrelevant"
+      ],
+      "log_loss": 0.40588278703403674,
+      "brier_sum_over_classes": 0.1440481121163523,
+      "ece_10_equal_width_bins": 0.24866672545907975,
+      "reliability_bins": [
+        {
+          "low": 0.1,
+          "count": 44,
+          "confidence": 0.1764458682851474,
+          "accuracy": 0.25
+        },
+        {
+          "low": 0.2,
+          "count": 123,
+          "confidence": 0.2556507717676001,
+          "accuracy": 0.7235772357723578
+        },
+        {
+          "low": 0.30000000000000004,
+          "count": 153,
+          "confidence": 0.3540958028264496,
+          "accuracy": 0.869281045751634
+        },
+        {
+          "low": 0.4,
+          "count": 202,
+          "confidence": 0.454062641166289,
+          "accuracy": 0.9405940594059405
+        },
+        {
+          "low": 0.5,
+          "count": 246,
+          "confidence": 0.5524952607118401,
+          "accuracy": 0.9878048780487805
+        },
+        {
+          "low": 0.6000000000000001,
+          "count": 394,
+          "confidence": 0.6507239326204879,
+          "accuracy": 1.0
+        },
+        {
+          "low": 0.7000000000000001,
+          "count": 604,
+          "confidence": 0.7511850755695364,
+          "accuracy": 1.0
+        },
+        {
+          "low": 0.8,
+          "count": 846,
+          "confidence": 0.8519105455492627,
+          "accuracy": 1.0
+        },
+        {
+          "low": 0.9,
+          "count": 588,
+          "confidence": 0.936104308307288,
+          "accuracy": 1.0
+        }
+      ],
+      "selective_risk": [
+        {
+          "threshold": 0.0,
+          "coverage": 1.0,
+          "risk": 0.03187499999999999
+        },
+        {
+          "threshold": 0.05,
+          "coverage": 1.0,
+          "risk": 0.03187499999999999
+        },
+        {
+          "threshold": 0.1,
+          "coverage": 1.0,
+          "risk": 0.03187499999999999
+        },
+        {
+          "threshold": 0.15000000000000002,
+          "coverage": 0.999375,
+          "risk": 0.03158223889931211
+        },
+        {
+          "threshold": 0.2,
+          "coverage": 0.98625,
+          "risk": 0.02186311787072248
+        },
+        {
+          "threshold": 0.25,
+          "coverage": 0.97125,
+          "risk": 0.01608751608751613
+        },
+        {
+          "threshold": 0.30000000000000004,
+          "coverage": 0.9478125,
+          "risk": 0.011539729640619889
+        },
+        {
+          "threshold": 0.35000000000000003,
+          "coverage": 0.9259375,
+          "risk": 0.008774890313871131
+        },
+        {
+          "threshold": 0.4,
+          "coverage": 0.9,
+          "risk": 0.00520833333333337
+        },
+        {
+          "threshold": 0.45,
+          "coverage": 0.8728125,
+          "risk": 0.0032223415682062218
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.836875,
+          "risk": 0.0011202389843166793
+        },
+        {
+          "threshold": 0.55,
+          "coverage": 0.80125,
+          "risk": 0.0003900156006240163
+        },
+        {
+          "threshold": 0.6000000000000001,
+          "coverage": 0.76,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.65,
+          "coverage": 0.701875,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.7000000000000001,
+          "coverage": 0.636875,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.75,
+          "coverage": 0.544375,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.448125,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.8500000000000001,
+          "coverage": 0.3296875,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.18375,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.9500000000000001,
+          "coverage": 0.0521875,
+          "risk": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "experiment": "E4_balanced",
+    "kind": "combined",
+    "svm": false,
+    "C": 1.0,
+    "class_weight": "balanced",
+    "split": "5-fold stratified group CV on train core; calibration holdout excluded",
+    "seconds": 13.17995070014149,
+    "metrics": {
+      "accuracy": 0.965625,
+      "macro_f1": 0.9589461151829801,
+      "weighted_f1": 0.9655417756822213,
+      "per_class": {
+        "account_promo": {
+          "precision": 0.9565217391304348,
+          "recall": 0.9930555555555556,
+          "f1-score": 0.9744463373083475,
+          "support": 288.0
+        },
+        "app_technical": {
+          "precision": 0.9841897233201581,
+          "recall": 0.97265625,
+          "f1-score": 0.9783889980353635,
+          "support": 256.0
+        },
+        "delivery_delay": {
+          "precision": 0.9810126582278481,
+          "recall": 0.96875,
+          "f1-score": 0.9748427672955975,
+          "support": 480.0
+        },
+        "food_quality": {
+          "precision": 0.9461883408071748,
+          "recall": 0.9419642857142857,
+          "f1-score": 0.9440715883668904,
+          "support": 224.0
+        },
+        "general_inquiry": {
+          "precision": 0.922077922077922,
+          "recall": 0.8875,
+          "f1-score": 0.9044585987261147,
+          "support": 160.0
+        },
+        "lost_item": {
+          "precision": 0.9487179487179487,
+          "recall": 0.925,
+          "f1-score": 0.9367088607594937,
+          "support": 160.0
+        },
+        "order_missing_wrong": {
+          "precision": 0.9685863874345549,
+          "recall": 0.9635416666666666,
+          "f1-score": 0.9660574412532638,
+          "support": 384.0
+        },
+        "payment_refund": {
+          "precision": 0.9773519163763066,
+          "recall": 0.9739583333333334,
+          "f1-score": 0.9756521739130435,
+          "support": 576.0
+        },
+        "ride_trip_issue": {
+          "precision": 0.9673202614379085,
+          "recall": 0.9910714285714286,
+          "f1-score": 0.9790518191841234,
+          "support": 448.0
+        },
+        "safety_conduct": {
+          "precision": 0.9076923076923077,
+          "recall": 0.921875,
+          "f1-score": 0.9147286821705426,
+          "support": 128.0
+        },
+        "spam_irrelevant": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 96.0
+        },
+        "accuracy": 0.965625,
+        "macro avg": {
+          "precision": 0.9599690186565968,
+          "recall": 0.9581247745310244,
+          "f1-score": 0.9589461151829801,
+          "support": 3200.0
+        },
+        "weighted avg": {
+          "precision": 0.965633250866706,
+          "recall": 0.965625,
+          "f1-score": 0.9655417756822213,
+          "support": 3200.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          286,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          249,
+          1,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          465,
+          3,
+          1,
+          1,
+          2,
+          3,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          211,
+          4,
+          2,
+          2,
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          1,
+          2,
+          142,
+          0,
+          3,
+          2,
+          4,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          1,
+          148,
+          2,
+          3,
+          2,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          2,
+          4,
+          1,
+          1,
+          370,
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          5,
+          0,
+          1,
+          0,
+          2,
+          1,
+          2,
+          561,
+          2,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          444,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          0,
+          4,
+          118,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          96
+        ]
+      ],
+      "classes": [
+        "account_promo",
+        "app_technical",
+        "delivery_delay",
+        "food_quality",
+        "general_inquiry",
+        "lost_item",
+        "order_missing_wrong",
+        "payment_refund",
+        "ride_trip_issue",
+        "safety_conduct",
+        "spam_irrelevant"
+      ],
+      "log_loss": 0.7543501383117053,
+      "brier_sum_over_classes": 0.3073815732424188,
+      "ece_10_equal_width_bins": 0.4493880389989466,
+      "reliability_bins": [
+        {
+          "low": 0.1,
+          "count": 136,
+          "confidence": 0.17207351784083566,
+          "accuracy": 0.5588235294117647
+        },
+        {
+          "low": 0.2,
+          "count": 361,
+          "confidence": 0.2548159614095654,
+          "accuracy": 0.8836565096952909
+        },
+        {
+          "low": 0.30000000000000004,
+          "count": 464,
+          "confidence": 0.35204098264899275,
+          "accuracy": 0.9849137931034483
+        },
+        {
+          "low": 0.4,
+          "count": 554,
+          "confidence": 0.45132005607178405,
+          "accuracy": 0.9981949458483754
+        },
+        {
+          "low": 0.5,
+          "count": 555,
+          "confidence": 0.5510023532218933,
+          "accuracy": 1.0
+        },
+        {
+          "low": 0.6000000000000001,
+          "count": 522,
+          "confidence": 0.6479822322601427,
+          "accuracy": 1.0
+        },
+        {
+          "low": 0.7000000000000001,
+          "count": 378,
+          "confidence": 0.7471495371747164,
+          "accuracy": 1.0
+        },
+        {
+          "low": 0.8,
+          "count": 198,
+          "confidence": 0.8432154299708879,
+          "accuracy": 1.0
+        },
+        {
+          "low": 0.9,
+          "count": 32,
+          "confidence": 0.9299117572199768,
+          "accuracy": 1.0
+        }
+      ],
+      "selective_risk": [
+        {
+          "threshold": 0.0,
+          "coverage": 1.0,
+          "risk": 0.034375000000000044
+        },
+        {
+          "threshold": 0.05,
+          "coverage": 1.0,
+          "risk": 0.034375000000000044
+        },
+        {
+          "threshold": 0.1,
+          "coverage": 1.0,
+          "risk": 0.034375000000000044
+        },
+        {
+          "threshold": 0.15000000000000002,
+          "coverage": 0.99375,
+          "risk": 0.0305031446540881
+        },
+        {
+          "threshold": 0.2,
+          "coverage": 0.9575,
+          "risk": 0.01631853785900783
+        },
+        {
+          "threshold": 0.25,
+          "coverage": 0.908125,
+          "risk": 0.007226428079834868
+        },
+        {
+          "threshold": 0.30000000000000004,
+          "coverage": 0.8446875,
+          "risk": 0.002959674435812021
+        },
+        {
+          "threshold": 0.35000000000000003,
+          "coverage": 0.7746875,
+          "risk": 0.0016135538523598392
+        },
+        {
+          "threshold": 0.4,
+          "coverage": 0.6996875,
+          "risk": 0.00044662795891026175
+        },
+        {
+          "threshold": 0.45,
+          "coverage": 0.6175,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.5265625,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.55,
+          "coverage": 0.4409375,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.6000000000000001,
+          "coverage": 0.353125,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.65,
+          "coverage": 0.265625,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.7000000000000001,
+          "coverage": 0.19,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.75,
+          "coverage": 0.1246875,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.071875,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.8500000000000001,
+          "coverage": 0.0346875,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.01,
+          "risk": 0.0
+        },
+        {
+          "threshold": 0.9500000000000001,
+          "coverage": 0.0021875,
+          "risk": 0.0
+        }
+      ]
+    }
+  }
+]

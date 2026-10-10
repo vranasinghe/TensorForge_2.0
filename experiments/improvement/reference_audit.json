@@ -1,0 +1,50 @@
+{
+  "SIMQ": {
+    "order_missing_wrong": 26,
+    "payment_refund": 35,
+    "general_inquiry": 14,
+    "food_quality": 9,
+    "ride_trip_issue": 22,
+    "account_promo": 15,
+    "safety_conduct": 5,
+    "delivery_delay": 28,
+    "app_technical": 13,
+    "lost_item": 9
+  },
+  "SIMB": {
+    "general_inquiry": 8,
+    "delivery_delay": 36,
+    "payment_refund": 28,
+    "account_promo": 14,
+    "safety_conduct": 7,
+    "app_technical": 9,
+    "food_quality": 13,
+    "lost_item": 4,
+    "ride_trip_issue": 24,
+    "order_missing_wrong": 20
+  },
+  "SIMD": {
+    "food_quality": 12,
+    "lost_item": 13,
+    "ride_trip_issue": 21,
+    "safety_conduct": 10,
+    "app_technical": 14,
+    "payment_refund": 22,
+    "account_promo": 17,
+    "order_missing_wrong": 20,
+    "delivery_delay": 29,
+    "general_inquiry": 12
+  },
+  "SIMM": {
+    "ride_trip_issue": 24,
+    "payment_refund": 37,
+    "order_missing_wrong": 14,
+    "app_technical": 16,
+    "food_quality": 8,
+    "account_promo": 13,
+    "lost_item": 7,
+    "delivery_delay": 23,
+    "general_inquiry": 16,
+    "safety_conduct": 7
+  }
+}

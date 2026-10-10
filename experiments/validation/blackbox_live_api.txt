@@ -1,0 +1,155 @@
+PASS GET /health public 200
+PASS health schema
+PASS X-API-Key accepted
+PASS predict schema
+PASS health version == predict version
+PASS ticket_id echoed
+PASS Bearer accepted
+PASS both auth styles give identical prediction
+PASS missing key with garbage body+type (401 precedes 415/400) -> 401 + ErrorResponse JSON
+PASS missing key with garbage body+type (401 precedes 415/400) error.code
+PASS missing key WWW-Authenticate: Bearer
+PASS wrong key with garbage body+type (401 precedes 415/400) -> 401 + ErrorResponse JSON
+PASS wrong key with garbage body+type (401 precedes 415/400) error.code
+PASS wrong key WWW-Authenticate: Bearer
+PASS wrong bearer with garbage body+type (401 precedes 415/400) -> 401 + ErrorResponse JSON
+PASS wrong bearer with garbage body+type (401 precedes 415/400) error.code
+PASS wrong bearer WWW-Authenticate: Bearer
+PASS POST /predict/batch without key -> 401 + ErrorResponse JSON
+PASS POST /batch/jobs without key -> 401 + ErrorResponse JSON
+PASS GET /batch/jobs/x without key -> 401 + ErrorResponse JSON
+PASS GET /batch/jobs/x/results without key -> 401 + ErrorResponse JSON
+PASS DELETE /batch/jobs/x without key -> 401 + ErrorResponse JSON
+PASS wrong Content-Type -> 415 + ErrorResponse JSON
+PASS invalid JSON -> 400 + ErrorResponse JSON
+PASS single >1MB -> 413 + ErrorResponse JSON
+PASS 415 precedes 413 -> 415 + ErrorResponse JSON
+PASS 413 precedes 400 (oversize invalid JSON) -> 413 + ErrorResponse JSON
+PASS whitespace text -> 422 + ErrorResponse JSON
+PASS missing text -> 422 + ErrorResponse JSON
+PASS missing channel -> 422 + ErrorResponse JSON
+PASS unknown channel -> 422 + ErrorResponse JSON
+PASS text wrong type -> 422 + ErrorResponse JSON
+PASS empty text -> 422 + ErrorResponse JSON
+PASS text 10001 chars -> 422 + ErrorResponse JSON
+PASS subject 501 chars -> 422 + ErrorResponse JSON
+PASS ticket_id 65 chars -> 422 + ErrorResponse JSON
+PASS body is array -> 422 + ErrorResponse JSON
+PASS accepts english
+PASS english schema
+PASS accepts sinhala
+PASS sinhala schema
+PASS accepts tamil
+PASS tamil schema
+PASS accepts singlish
+PASS singlish schema
+PASS accepts tanglish
+PASS tanglish schema
+PASS accepts mixed
+PASS mixed schema
+PASS accepts emoji-only
+PASS emoji-only schema
+PASS accepts max 10000 chars
+PASS max 10000 chars schema
+PASS accepts combining marks
+PASS combining marks schema
+PASS accepts newlines+speakers
+PASS newlines+speakers schema
+PASS unknown extra properties allowed
+PASS prediction independent of different ticket_id
+PASS prediction independent of language=si
+PASS prediction independent of language=ta
+PASS prediction independent of no ticket_id
+PASS injection schema
+PASS prompt injection not obeyed (not spam, conf<1)
+PASS X-Request-ID echoed
+PASS unknown route -> 404 + ErrorResponse JSON
+PASS wrong method -> 405 + ErrorResponse JSON
+PASS GET /predict -> 405 + ErrorResponse JSON
+PASS 800 validation tickets: every batch response schema-valid
+PASS 800 tickets: order/length/ID echo preserved
+PASS 800 tickets: team map, secondary!=primary, spam rule, conf range, version
+PASS 800 sync predictions in reasonable time
+METRICS via live API: accuracy=0.6088 macroF1=0.6380 urgentF1=0.8533 secondaryPresenceF1=0.7669 exactTriple=0.5763
+PASS live accuracy/macro-F1 equal stored development metrics
+PASS batch of 1 ok
+PASS batch size 0 -> 422 + ErrorResponse JSON
+PASS batch size 101 -> 422 + ErrorResponse JSON
+PASS duplicate ids -> 422 + ErrorResponse JSON
+PASS missing id -> 422 + ErrorResponse JSON
+PASS missing id detail has index 1
+PASS multi-fault batch -> 422 + ErrorResponse JSON
+PASS multi-fault batch reports all bad indexes (1,2,3 + dup)
+PASS sync >5MB -> 413 + ErrorResponse JSON
+PASS prediction identical single vs shuffled batch (100)
+PASS prediction identical /predict vs batch (20)
+PASS async submit 1 -> 202
+PASS submit 1 schema
+PASS async 1: Location + Retry-After
+PASS status poll schema
+PASS async 1 succeeded
+PASS async 1: processed monotonic, <= total, Retry-After while active
+PASS results page 0 schema
+PASS async 1: all results, original order + ids
+PASS async submit 100 -> 202
+PASS submit 100 schema
+PASS async 100: Location + Retry-After
+PASS status poll schema
+PASS async 100 succeeded
+PASS async 100: processed monotonic, <= total, Retry-After while active
+PASS results page 0 schema
+PASS async 100: all results, original order + ids
+PASS async 100 == sync batch 100 (same fields)
+PASS pagination offset=30 limit=30 -> next_offset 60
+PASS last page next_offset null, 10 items
+PASS limit=0 -> 422 + ErrorResponse JSON
+PASS offset=-1 -> 422 + ErrorResponse JSON
+PASS DELETE finished job 204
+PASS after DELETE lookup -> 404 + ErrorResponse JSON
+PASS async submit 2000 -> 202
+PASS submit 2000 schema
+PASS async 2000: Location + Retry-After
+PASS status poll schema
+PASS async 2000 succeeded
+PASS async 2000: processed monotonic, <= total, Retry-After while active
+PASS results page 0 schema
+PASS results page 1000 schema
+PASS async 2000: all results, original order + ids
+PASS unknown job status -> 404 + ErrorResponse JSON
+PASS unknown job results -> 404 + ErrorResponse JSON
+PASS unknown job delete -> 404 + ErrorResponse JSON
+PASS async 0 tickets -> 422 + ErrorResponse JSON
+PASS async bad item atomic -> 422 + ErrorResponse JSON
+PASS async duplicate ids -> 422 + ErrorResponse JSON
+PASS idempotent resubmission returns same job_id
+PASS same key different payload not silently replaced
+PASS status poll schema
+PASS 5000 submit -> 202 in <5s
+PASS results while not finished -> 409
+PASS 409 body schema
+PASS 5000 job succeeded
+PASS 5000 progress monotonic
+PASS poll p95 <1s while job runs
+PASS health/predict p95 <1s while job runs
+PASS results page 0 schema
+PASS results page 1000 schema
+PASS results page 2000 schema
+PASS results page 3000 schema
+PASS results page 4000 schema
+PASS 5000 results complete + ordered
+5000-ticket job wall time 13.0s
+PASS 429 has Retry-After + ErrorResponse
+PASS 429 has Retry-After + ErrorResponse
+PASS queue limit: 1 running + 3 queued accepted then 429
+PASS DELETE queued/running job 204
+PASS DELETE queued/running job 204
+PASS DELETE queued/running job 204
+PASS DELETE queued/running job 204
+PASS deleted active job -> 404
+PASS deleted active job -> 404
+PASS deleted active job -> 404
+PASS deleted active job -> 404
+PASS health still ok after load
+
+SUMMARY: 150 passed, 0 failed of 150
+exit=0

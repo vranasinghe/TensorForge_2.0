@@ -1,0 +1,20 @@
+{
+  "active_artifact": "sha256-d86933b2e9c48d1543487df63da48b5174579430f81a3011c4e894163c34e02b",
+  "initial_accuracy": 0.58625,
+  "development_accuracy": 0.6,
+  "initial_macro_f1": 0.6095691018349871,
+  "development_macro_f1": 0.629117288933656,
+  "development_acceptance": "train stress CV chose candidate; reused validation confirms macro-F1 gain and no default urgency-F1 loss; not independent test evidence",
+  "regressions": {
+    "mixed": {
+      "initial": 0.6,
+      "new": 0.55
+    },
+    "ta": {
+      "initial": 0.575,
+      "new": 0.5333333333333333
+    }
+  },
+  "original_preserved": "artifacts/legacy",
+  "recall_first_alternative": "artifacts/high_recall"
+}

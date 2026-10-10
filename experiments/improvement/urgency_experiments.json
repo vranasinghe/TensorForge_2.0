@@ -1,0 +1,53 @@
+[
+  {
+    "name": "legacy",
+    "weighted_error": 200.0,
+    "precision": 0.9054373522458629,
+    "recall": 0.9575,
+    "f1": 0.9307411907654921,
+    "safety_false_negatives": 15,
+    "fold_cutoffs": [
+      0.15000000000000002,
+      0.1,
+      0.1,
+      0.2,
+      0.25
+    ],
+    "seconds": 27.71922459988855,
+    "selection": "5-fold train group stress CV; threshold selected on inner calibration stress set; safety FN cost10, other FN5, FP1"
+  },
+  {
+    "name": "robust",
+    "weighted_error": 158.0,
+    "precision": 0.9322033898305084,
+    "recall": 0.9625,
+    "f1": 0.947109471094711,
+    "safety_false_negatives": 11,
+    "fold_cutoffs": [
+      0.15000000000000002,
+      0.15000000000000002,
+      0.1,
+      0.15000000000000002,
+      0.4
+    ],
+    "seconds": 27.989876999985427,
+    "selection": "5-fold train group stress CV; threshold selected on inner calibration stress set; safety FN cost10, other FN5, FP1"
+  },
+  {
+    "name": "robust_balanced",
+    "weighted_error": 150.0,
+    "precision": 0.927710843373494,
+    "recall": 0.9625,
+    "f1": 0.9447852760736196,
+    "safety_false_negatives": 9,
+    "fold_cutoffs": [
+      0.2,
+      0.2,
+      0.1,
+      0.1,
+      0.35000000000000003
+    ],
+    "seconds": 29.555231499951333,
+    "selection": "5-fold train group stress CV; threshold selected on inner calibration stress set; safety FN cost10, other FN5, FP1"
+  }
+]

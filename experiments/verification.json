@@ -1,0 +1,38 @@
+{
+  "time_utc": "2026-10-09T19:30:49.007031+00:00",
+  "checks": [
+    {
+      "command": [
+        "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Project Comparison\\TF Project\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "--disable-warnings"
+      ],
+      "exit_code": 0,
+      "stdout": "......................................................... [ 69%]\n.........................                                                [100%]\n82 passed, 1 warning, 15 subtests passed in 102.68s (0:01:42)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Project Comparison\\TF Project\\.venv\\Scripts\\python.exe",
+        "-m",
+        "scripts.offline_smoke"
+      ],
+      "exit_code": 0,
+      "stdout": "Offline in-process model load and 7 multilingual predictions passed.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\LENOVO\\OneDrive\\Desktop\\Project Comparison\\TF Project\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "stdout": "No broken requirements found.\n",
+      "stderr": ""
+    }
+  ]
+}

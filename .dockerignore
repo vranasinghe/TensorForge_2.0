@@ -1,0 +1,10 @@
+.venv
+.git
+.env*
+__pycache__
+runtime
+experiments
+TensorForge 2.0 - MVP Resources DataSet
+tests
+frontend
+docs

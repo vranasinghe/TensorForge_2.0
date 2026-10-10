@@ -1,0 +1,26 @@
+{
+  "time_utc": "2026-10-10T02:35:31.470373+00:00",
+  "image": "tensorforge:local",
+  "checks": [
+    "network-disabled image: actual load and four Unicode predictions",
+    "public health/version, auth precedence, direct/sync equality",
+    "actual running 5000-ticket job killed; durable failed/interrupted recovery; DELETE"
+  ],
+  "image_id": "sha256:730d73999675219b749a6d460aa178416afad890210e6dc7fb40c2ebd2b01d82",
+  "interrupted_job": {
+    "job_id": "fbaba7d4-583f-47f5-b904-742c99a9bc6b",
+    "status": "failed",
+    "total": 5000,
+    "processed": 0,
+    "created_at": "2026-10-10T02:35:42.914988+00:00",
+    "started_at": "2026-10-10T02:35:42.978743+00:00",
+    "finished_at": "2026-10-10T02:35:44.119854+00:00",
+    "expires_at": "2026-10-11T02:35:44.119863+00:00",
+    "model_version": "sha256-829eec71b98e733fb10e71ba39ab0a5d045cb0a4a8efb09128d3eef0b08b3806",
+    "error": {
+      "code": "interrupted",
+      "message": "Service restarted while work was pending."
+    }
+  },
+  "passed": true
+}

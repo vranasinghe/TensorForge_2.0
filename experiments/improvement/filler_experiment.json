@@ -1,0 +1,83 @@
+{
+  "note": "supplied validation is reused development data (see PROGRESS.md); four variants fixed in advance, all reported; not an unseen-test claim",
+  "seed": 42,
+  "results": [
+    {
+      "name": "baseline_no_filler",
+      "spec": null,
+      "train_group_cv_accuracy": 0.99075,
+      "train_group_cv_macro_f1": 0.9887611270916105,
+      "validation_accuracy": 0.6,
+      "validation_macro_f1": 0.629117288933656,
+      "validation_language_accuracy": {
+        "en": 0.5535714285714286,
+        "mixed": 0.55,
+        "si": 0.35625,
+        "singlish": 0.9,
+        "ta": 0.5333333333333333,
+        "tanglish": 0.65
+      },
+      "seconds": 18.1
+    },
+    {
+      "name": "filler_df20_h2.0",
+      "spec": [
+        20,
+        2.0
+      ],
+      "train_group_cv_accuracy": 0.99175,
+      "train_group_cv_macro_f1": 0.9899258140957489,
+      "validation_accuracy": 0.58625,
+      "validation_macro_f1": 0.6100794512788896,
+      "validation_language_accuracy": {
+        "en": 0.5392857142857143,
+        "mixed": 0.5,
+        "si": 0.36875,
+        "singlish": 0.85,
+        "ta": 0.55,
+        "tanglish": 0.65
+      },
+      "seconds": 16.4
+    },
+    {
+      "name": "filler_df10_h1.5",
+      "spec": [
+        10,
+        1.5
+      ],
+      "train_group_cv_accuracy": 0.9915,
+      "train_group_cv_macro_f1": 0.9894771343925545,
+      "validation_accuracy": 0.5775,
+      "validation_macro_f1": 0.6080926578399277,
+      "validation_language_accuracy": {
+        "en": 0.5285714285714286,
+        "mixed": 0.5,
+        "si": 0.375,
+        "singlish": 0.82,
+        "ta": 0.5583333333333333,
+        "tanglish": 0.65
+      },
+      "seconds": 15.7
+    },
+    {
+      "name": "filler_df40_h2.5",
+      "spec": [
+        40,
+        2.5
+      ],
+      "train_group_cv_accuracy": 0.99125,
+      "train_group_cv_macro_f1": 0.9893617672491328,
+      "validation_accuracy": 0.58875,
+      "validation_macro_f1": 0.609186620707344,
+      "validation_language_accuracy": {
+        "en": 0.5392857142857143,
+        "mixed": 0.5,
+        "si": 0.35,
+        "singlish": 0.885,
+        "ta": 0.5333333333333333,
+        "tanglish": 0.65
+      },
+      "seconds": 16.8
+    }
+  ]
+}

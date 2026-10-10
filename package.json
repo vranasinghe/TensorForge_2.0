@@ -1,0 +1,6 @@
+{
+  "name": "tensorforge-browser-checks",
+  "private": true,
+  "scripts": {"test:browser": "node scripts/browser_test.cjs"},
+  "devDependencies": {"playwright": "1.62.1"}
+}

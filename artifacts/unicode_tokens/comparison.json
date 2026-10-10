@@ -1,0 +1,48 @@
+{
+  "accuracy": {
+    "active": 0.6,
+    "unicode_tokens": 0.60875
+  },
+  "macro_f1": {
+    "active": 0.629117288933656,
+    "unicode_tokens": 0.6380239516430989
+  },
+  "log_loss": {
+    "active": 1.244682537068137,
+    "unicode_tokens": 1.2633396934841108
+  },
+  "ece_10_equal_width_bins": {
+    "active": 0.032654293659512966,
+    "unicode_tokens": 0.027180193556926
+  },
+  "exact_triple_match": {
+    "active": 0.5675,
+    "unicode_tokens": 0.57625
+  },
+  "language_accuracy": {
+    "en": {
+      "active": 0.5535714285714286,
+      "unicode_tokens": 0.5535714285714286
+    },
+    "mixed": {
+      "active": 0.55,
+      "unicode_tokens": 0.55
+    },
+    "si": {
+      "active": 0.35625,
+      "unicode_tokens": 0.34375
+    },
+    "singlish": {
+      "active": 0.9,
+      "unicode_tokens": 0.9
+    },
+    "ta": {
+      "active": 0.5333333333333333,
+      "unicode_tokens": 0.6166666666666667
+    },
+    "tanglish": {
+      "active": 0.65,
+      "unicode_tokens": 0.6
+    }
+  }
+}

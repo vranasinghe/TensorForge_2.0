@@ -1,0 +1,219 @@
+{
+  "note": "Both artifacts measured through app.predictor on identical splits. The confirmation half is the only split never used to fit the new model or its thresholds.",
+  "previous_artifact": "vote_v2",
+  "current_artifact": "urg_v3",
+  "previous": {
+    "model_version": "sha256-a79124380075171c4bbcd482726595423cb96fa9d39d4f6443cf1145199c21f5",
+    "confirmation_half": {
+      "count": 400,
+      "accuracy": 0.6425,
+      "macro_f1": 0.6642837399926509,
+      "weighted_f1": 0.6495589178292525,
+      "exact_triple_match": 0.6125,
+      "secondary_exact_accuracy": 0.9625,
+      "ece_10_equal_width_bins": 0.036923126821702526,
+      "mean_confidence": 0.6668865479566276,
+      "urgency": {
+        "precision": 0.8048780487804879,
+        "recall": 0.8048780487804879,
+        "f1": 0.8048780487804879
+      },
+      "secondary_presence": {
+        "precision": 0.9629629629629629,
+        "recall": 0.7027027027027027,
+        "f1": 0.8125
+      },
+      "needs_human_review_emitted": true,
+      "review": {
+        "flagged_fraction": 0.34,
+        "auto_routed_accuracy": 0.803030303030303,
+        "flagged_accuracy": 0.33088235294117646
+      },
+      "by_language": {
+        "en": {
+          "count": 141,
+          "accuracy": 0.5673758865248227
+        },
+        "mixed": {
+          "count": 10,
+          "accuracy": 0.6
+        },
+        "si": {
+          "count": 78,
+          "accuracy": 0.34615384615384615
+        },
+        "singlish": {
+          "count": 105,
+          "accuracy": 0.9619047619047619
+        },
+        "ta": {
+          "count": 57,
+          "accuracy": 0.6491228070175439
+        },
+        "tanglish": {
+          "count": 9,
+          "accuracy": 0.6666666666666666
+        }
+      }
+    },
+    "full_validation": {
+      "count": 800,
+      "accuracy": 0.645,
+      "macro_f1": 0.6725274203255904,
+      "weighted_f1": 0.6526655406168774,
+      "exact_triple_match": 0.6125,
+      "secondary_exact_accuracy": 0.96375,
+      "ece_10_equal_width_bins": 0.027547715862653754,
+      "mean_confidence": 0.6594627187311463,
+      "urgency": {
+        "precision": 0.8292682926829268,
+        "recall": 0.85,
+        "f1": 0.8395061728395061
+      },
+      "secondary_presence": {
+        "precision": 0.9841269841269841,
+        "recall": 0.775,
+        "f1": 0.8671328671328671
+      },
+      "needs_human_review_emitted": true,
+      "review": {
+        "flagged_fraction": 0.35,
+        "auto_routed_accuracy": 0.8057692307692308,
+        "flagged_accuracy": 0.3464285714285714
+      },
+      "by_language": {
+        "en": {
+          "count": 280,
+          "accuracy": 0.5607142857142857
+        },
+        "mixed": {
+          "count": 20,
+          "accuracy": 0.6
+        },
+        "si": {
+          "count": 160,
+          "accuracy": 0.38125
+        },
+        "singlish": {
+          "count": 200,
+          "accuracy": 0.96
+        },
+        "ta": {
+          "count": 120,
+          "accuracy": 0.6583333333333333
+        },
+        "tanglish": {
+          "count": 20,
+          "accuracy": 0.75
+        }
+      }
+    }
+  },
+  "current": {
+    "model_version": "sha256-829eec71b98e733fb10e71ba39ab0a5d045cb0a4a8efb09128d3eef0b08b3806",
+    "confirmation_half": {
+      "count": 400,
+      "accuracy": 0.6425,
+      "macro_f1": 0.6642837399926509,
+      "weighted_f1": 0.6495589178292525,
+      "exact_triple_match": 0.6175,
+      "secondary_exact_accuracy": 0.9625,
+      "ece_10_equal_width_bins": 0.036923126821702526,
+      "mean_confidence": 0.6668865479566276,
+      "urgency": {
+        "precision": 0.9428571428571428,
+        "recall": 0.8048780487804879,
+        "f1": 0.868421052631579
+      },
+      "secondary_presence": {
+        "precision": 0.9629629629629629,
+        "recall": 0.7027027027027027,
+        "f1": 0.8125
+      },
+      "needs_human_review_emitted": true,
+      "review": {
+        "flagged_fraction": 0.34,
+        "auto_routed_accuracy": 0.803030303030303,
+        "flagged_accuracy": 0.33088235294117646
+      },
+      "by_language": {
+        "en": {
+          "count": 141,
+          "accuracy": 0.5673758865248227
+        },
+        "mixed": {
+          "count": 10,
+          "accuracy": 0.6
+        },
+        "si": {
+          "count": 78,
+          "accuracy": 0.34615384615384615
+        },
+        "singlish": {
+          "count": 105,
+          "accuracy": 0.9619047619047619
+        },
+        "ta": {
+          "count": 57,
+          "accuracy": 0.6491228070175439
+        },
+        "tanglish": {
+          "count": 9,
+          "accuracy": 0.6666666666666666
+        }
+      }
+    },
+    "full_validation": {
+      "count": 800,
+      "accuracy": 0.645,
+      "macro_f1": 0.6725274203255904,
+      "weighted_f1": 0.6526655406168774,
+      "exact_triple_match": 0.61625,
+      "secondary_exact_accuracy": 0.96375,
+      "ece_10_equal_width_bins": 0.027547715862653754,
+      "mean_confidence": 0.6594627187311463,
+      "urgency": {
+        "precision": 0.9315068493150684,
+        "recall": 0.85,
+        "f1": 0.8888888888888888
+      },
+      "secondary_presence": {
+        "precision": 0.9841269841269841,
+        "recall": 0.775,
+        "f1": 0.8671328671328671
+      },
+      "needs_human_review_emitted": true,
+      "review": {
+        "flagged_fraction": 0.35,
+        "auto_routed_accuracy": 0.8057692307692308,
+        "flagged_accuracy": 0.3464285714285714
+      },
+      "by_language": {
+        "en": {
+          "count": 280,
+          "accuracy": 0.5607142857142857
+        },
+        "mixed": {
+          "count": 20,
+          "accuracy": 0.6
+        },
+        "si": {
+          "count": 160,
+          "accuracy": 0.38125
+        },
+        "singlish": {
+          "count": 200,
+          "accuracy": 0.96
+        },
+        "ta": {
+          "count": 120,
+          "accuracy": 0.6583333333333333
+        },
+        "tanglish": {
+          "count": 20,
+          "accuracy": 0.75
+        }
+      }
+    }
+  }
+}

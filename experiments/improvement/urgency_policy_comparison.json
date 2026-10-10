@@ -1,0 +1,23 @@
+{
+  "balanced": {
+    "precision": 0.9142857142857143,
+    "recall": 0.8,
+    "f1": 0.8533333333333334,
+    "pr_auc_average_precision": 0.9189745125216638,
+    "threshold": 0.45,
+    "positives": 80,
+    "count": 800,
+    "end_to_end_f1": 0.8533333333333334
+  },
+  "recall_first": {
+    "precision": 0.5103448275862069,
+    "recall": 0.925,
+    "f1": 0.6577777777777778,
+    "pr_auc_average_precision": 0.9189745125216638,
+    "threshold": 0.1,
+    "positives": 80,
+    "count": 800,
+    "end_to_end_f1": 0.6577777777777778
+  },
+  "selection_note": "cutoffs derived from training grid; development diagnostics informed the decision to retain separate profiles, not an independent test"
+}

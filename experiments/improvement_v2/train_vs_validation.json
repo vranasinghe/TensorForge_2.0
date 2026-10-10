@@ -1,0 +1,72 @@
+{
+  "tf": {
+    "version": "sha256-829eec71b98e733fb10e71ba39ab0a5d045cb0a4a8efb09128d3eef0b08b3806",
+    "train": {
+      "n": 4000,
+      "category_accuracy": 1.0,
+      "category_macro_f1": 1.0,
+      "urgency_accuracy": 1.0,
+      "urgency_f1": 1.0,
+      "urgency_precision": 1.0,
+      "urgency_recall": 1.0,
+      "secondary_presence_f1": 1.0,
+      "exact_triple": 1.0
+    },
+    "validation": {
+      "n": 800,
+      "category_accuracy": 0.645,
+      "category_macro_f1": 0.6725274203255904,
+      "urgency_accuracy": 0.97875,
+      "urgency_f1": 0.8888888888888888,
+      "urgency_precision": 0.9315068493150684,
+      "urgency_recall": 0.85,
+      "secondary_presence_f1": 0.8671328671328671,
+      "exact_triple": 0.61625
+    },
+    "gap": {
+      "category_accuracy": 0.355,
+      "category_macro_f1": 0.32747257967440957,
+      "urgency_accuracy": 0.02124999999999999,
+      "urgency_f1": 0.11111111111111116,
+      "urgency_precision": 0.06849315068493156,
+      "urgency_recall": 0.15000000000000002,
+      "secondary_presence_f1": 0.13286713286713292,
+      "exact_triple": 0.38375000000000004
+    }
+  },
+  "kdu": {
+    "version": "v1.2",
+    "train": {
+      "n": 4000,
+      "category_accuracy": 1.0,
+      "category_macro_f1": 1.0,
+      "urgency_accuracy": 1.0,
+      "urgency_f1": 1.0,
+      "urgency_precision": 1.0,
+      "urgency_recall": 1.0,
+      "secondary_presence_f1": 1.0,
+      "exact_triple": 1.0
+    },
+    "validation": {
+      "n": 800,
+      "category_accuracy": 0.6375,
+      "category_macro_f1": 0.6649592379923012,
+      "urgency_accuracy": 0.98,
+      "urgency_f1": 0.8918918918918919,
+      "urgency_precision": 0.9705882352941176,
+      "urgency_recall": 0.825,
+      "secondary_presence_f1": 0.7096774193548387,
+      "exact_triple": 0.605
+    },
+    "gap": {
+      "category_accuracy": 0.36250000000000004,
+      "category_macro_f1": 0.33504076200769883,
+      "urgency_accuracy": 0.020000000000000018,
+      "urgency_f1": 0.10810810810810811,
+      "urgency_precision": 0.02941176470588236,
+      "urgency_recall": 0.17500000000000004,
+      "secondary_presence_f1": 0.29032258064516125,
+      "exact_triple": 0.395
+    }
+  }
+}
