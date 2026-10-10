@@ -38,7 +38,12 @@ $env:BACKEND_URL = 'http://127.0.0.1:8000'
 .\.venv\Scripts\python.exe -m uvicorn frontend.server:app --host 127.0.0.1 --port 8501 --workers 1
 ```
 
-Open `http://127.0.0.1:8501` and sign in with the demo credentials. The browser
+Open `http://127.0.0.1:8501` and sign in with the demo credentials:
+
+- **Username:** `demo`
+- **Password:** `demo-password`
+
+The browser
 never receives API_KEY. Public deployment must use HTTPS for both services.
 Ticket entry, confidence, urgency, secondary issue, team route, CSV batch import,
 real job progress, deletion and CSV export are implemented. Browser visual/interaction
