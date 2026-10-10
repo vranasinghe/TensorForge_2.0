@@ -45,7 +45,7 @@ def create_app(config=None, predictor=None, start_worker=True):
                         worker = Worker(app.state.store, model)
                         worker.start()
             except Exception:
-                logging.error('Model could not be loaded; service remains unready.')
+                logging.exception('Model could not be loaded; service remains unready.')
 
         loader = threading.Thread(target=load_model, name='model-loader', daemon=True)
         loader.start()
@@ -79,10 +79,14 @@ def create_app(config=None, predictor=None, start_worker=True):
             raise APIError(503, 'model_loading', 'Wait for /health readiness before predicting.')
         return app.state.predictor
 
-    @app.get('/health')
-    async def health():
+    @app.api_route('/health', methods=['GET', 'HEAD'])
+    async def health(request: Request):
         p = app.state.predictor
-        return checked('HealthResponse', {'status': 'ok' if p else 'loading', 'model_version': p.version if p else None, 'model_loaded': p is not None}, 200 if p else 503)
+        status_code = 200 if p else 503
+        # HEAD: return status code only — no body. Render uses HEAD for health checks.
+        if request.method == 'HEAD':
+            return Response(status_code=status_code)
+        return checked('HealthResponse', {'status': 'ok' if p else 'loading', 'model_version': p.version if p else None, 'model_loaded': p is not None}, status_code)
 
     @app.post('/predict')
     async def predict(request: Request):

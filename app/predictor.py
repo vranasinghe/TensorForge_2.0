@@ -1,4 +1,5 @@
 import json
+import logging
 import math
 from pathlib import Path
 import joblib
@@ -10,11 +11,17 @@ from app.schemas import validate
 class Predictor:
     def __init__(self, artifact_dir):
         path = Path(artifact_dir)
+        logging.info('Loading model from %s', path)
         manifest = json.loads((path / 'manifest.json').read_text(encoding='utf-8'))
+        logging.info('Verifying model digest...')
         if digest(path / 'model.joblib') != manifest['sha256']:
             raise ValueError('Model artifact digest mismatch')
         self.version = manifest['model_version']
-        self.model = joblib.load(path / 'model.joblib')
+        logging.info('Digest OK. Loading model artifact with mmap_mode=r...')
+        # mmap_mode='r' memory-maps numpy arrays instead of copying them into RAM,
+        # dramatically reducing peak memory on Render's free 512MB instances.
+        self.model = joblib.load(path / 'model.joblib', mmap_mode='r')
+        logging.info('Model loaded. version=%s', self.version)
         self.review_threshold = self.model.get('review_threshold')
 
     def predict_many(self, tickets):
